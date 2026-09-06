@@ -130,9 +130,11 @@ function navR(){
 function card(x){
   return `<article class="wine">
     <button class="row" aria-expanded="false">
-      <span class="v">${esc(x.v)}</span>
+      <span class="v">${x.v}</span>
       <span class="name">${esc(x.name)}</span>
-      <span class="price">${esc(x.price)}</span>
+      <span class="price">
+${esc(x.price).replace(/ · /g,'<br>')}
+</span>
       <span class="plus">+</span>
     </button>
     <div class="inside">${esc(x.note)}</div>

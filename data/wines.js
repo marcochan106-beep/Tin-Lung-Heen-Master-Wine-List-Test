@@ -907,7 +907,7 @@ window.WINE_DATA = [
             "note": "Broad in flavour, then neatly refreshed. citrus and orchard fruit lead into brioche, chalk and gentle peppery spice."
           },
           {
-            "v": "1992/1993",
+            "v": "1992<br>1993",
             "name": "Dom Pérignon P3 Plénitude Collection",
             "price": "$43,000",
             "section": "Vintage Champagne",
