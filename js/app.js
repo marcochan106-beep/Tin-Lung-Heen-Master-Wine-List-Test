@@ -1,5 +1,5 @@
 const C=window.WINE_DATA;
-updated='6 September 2026';
+updated='23 September 2026';
 const totalSelections=C.reduce((total,category)=>total+category.sections.reduce((sum,section)=>sum+section.items.length,0),0);let current=C[0].id;const nav=document.querySelector('#nav'),main=document.querySelector('#main'),q=document.querySelector('#q'),st=document.querySelector('#st'),meta=document.querySelector('#meta');const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));const n=c=>c.sections.reduce((a,s)=>a+s.items.length,0);
 // Navigation intentionally begins hierarchical browsing only after Sommelier Selection.
 const PRE_SOMMELIER_IDS=new Set(['c0','c1','c3','c4','c5']);
