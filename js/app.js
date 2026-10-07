@@ -1,5 +1,5 @@
 const C=window.WINE_DATA;
-updated='23 September 2026';
+updated='7 October 2026';
 const totalSelections=C.reduce((total,category)=>total+category.sections.reduce((sum,section)=>sum+section.items.length,0),0);let current=C[0].id;const nav=document.querySelector('#nav'),main=document.querySelector('#main'),q=document.querySelector('#q'),st=document.querySelector('#st'),meta=document.querySelector('#meta');const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));const n=c=>c.sections.reduce((a,s)=>a+s.items.length,0);
 let lang=localStorage.getItem('wineListLanguage')==='zh'?'zh':'en';
 const pick=(obj,key)=>lang==='zh'&&obj&&obj[key+'Zh']?obj[key+'Zh']:(obj?.[key]??'');
@@ -158,7 +158,7 @@ function featureCard(x){
       <div class="wotm-summary">
         <div class="wotm-vintage">${esc(x.v)}</div>
         <h2>${esc(pick(x,'name'))}</h2>
-        <div class="wotm-prices">${esc(pick(x,'price')).replace(/ · /g,'<br>')}</div>
+        <div class="wotm-prices">${String(pick(x,'price')??'').split(/\s*·\s*/).filter(Boolean).map(price=>`<div class="wotm-price-line">${esc(price)}</div>`).join('')}</div>
       </div>
     </div>
     <div class="wotm-copy">${featureNote(pick(x,'note'))}</div>
