@@ -1,4 +1,4 @@
-window.WINE_DATA =[
+window.WINE_DATA = [
   {
     "id": "c0",
     "title": "Wine of the Month",
@@ -7,15 +7,23 @@ window.WINE_DATA =[
         "name": "Wine of the Month",
         "items": [
           {
-            "v": "2000",
-            "name": "Château Latour / 2000年份 拉圖酒莊 (大瓶裝)",
-            "price": "Glass (100ml) $3,880",
+            "v": "1982",
+            "name": "Château Cos d'Estournel Magnum",
+            "price": "Glass (100ml) $1,880 · Carafe (375ml) $6,280 · Bottle (1.5L) $25,800",
             "section": "Wine of the Month",
-            "note": "Cassis, violet and cedar. The palate is layered rather than heavy, with ripe tannins, fresh acidity and savoury definition."
+            "image": "images/cos1982-magnum.png",
+            "imageAlt": "Château Cos d'Estournel 1982 Magnum",
+            "note": "Blackcurrant, cigar box and sandalwood. Mature cedar and tobacco complement the concentrated fruit of 1982, while the magnum retains freshness, structure and impressive length.\n\nA Second Growth of the 1855 Classification, Château Cos d'Estournel is one of Bordeaux's most celebrated estates. Its gravelly hilltop vineyards in Saint-Estèphe produce wines renowned for combining power, richness and remarkable longevity.\n\nThe legendary 1982 Bordeaux vintage is widely regarded as one of the greatest in the region's history. More than four decades later, this magnum demonstrates the vintage's hallmark combination of concentration, harmony and enduring vitality.",
+            "nameZh": "1982年 愛士圖爾酒莊大瓶裝",
+            "priceZh": "杯裝（100毫升）$1,880 · 醒酒瓶（375毫升）$6,280 · 大瓶裝（1.5公升）$25,800",
+            "imageAltZh": "1982年愛士圖爾酒莊大瓶裝",
+            "noteZh": "黑加侖子、雪茄盒及檀香。成熟的雪松與煙草氣息襯托1982年份的濃郁果香，而大瓶裝仍保持清新度、結構與悠長餘韻。\n\n愛士圖爾酒莊是1855年列級制度中的二級酒莊，亦是波爾多最著名的酒莊之一。酒莊坐落於聖埃斯泰夫的礫石丘陵，所產佳釀以力量、豐潤度與卓越陳年能力著稱。\n\n傳奇的1982年波爾多年份被廣泛視為區內史上最佳年份之一。逾四十年後，這瓶大瓶裝仍展現該年份標誌性的濃郁度、和諧感與持久活力。"
           }
-        ]
+        ],
+        "nameZh": "每月精選佳釀"
       }
-    ]
+    ],
+    "titleZh": "每月精選佳釀"
   },
   {
     "id": "c1",
@@ -26,38 +34,43 @@ window.WINE_DATA =[
         "items": [
           {
             "v": "2024",
-            "name": "Mystic Island, Yihu Cabernet Franc Blanc, Shandong, China / 仙島酒莊,逸湖品麗珠,中國山東",
+            "name": "Mystic Island, Yihu Cabernet Franc Blanc, Shandong, China",
             "price": "$880",
             "section": "White",
-            "note": "Grapefruit, orange peel and pineapple. Gently pressed Cabernet Franc gives a colourless white with a vibrant citrus core and a long, lively finish."
+            "note": "Grapefruit, orange peel and pineapple. Gently pressed Cabernet Franc gives a colourless, unoaked white with a vibrant citrus core and a long, lively finish.",
+            "nameZh": "仙島酒莊,逸湖品麗珠,中國山東"
           },
           {
             "v": "2023",
-            "name": "Puchang, Rkatsiteli, Xinjiang, China / 蒲昌酒庄,白羽,中國新彊",
+            "name": "Puchang, Rkatsiteli, Xinjiang, China",
             "price": "$1,280",
             "section": "White",
-            "note": "Peach, citrus and honeysuckle. Puchang’s desert-grown Rkatsiteli combines full-bodied texture with freshness and a subtle flinty finish."
+            "note": "Peach, citrus and honeysuckle. Puchang’s desert-grown Rkatsiteli combines full-bodied texture with freshness and a subtle flinty finish.",
+            "nameZh": "蒲昌酒庄,白羽,中國新彊"
           },
           {
             "v": "2023",
-            "name": "Grace Wine, Koshu, Toriibira Vineyard Private Reserve, Yamanashi, Japan / 葛蕾絲酒莊,甲州,日本山梨縣",
+            "name": "Grace Wine, Koshu, Toriibira Vineyard Private Reserve, Yamanashi, Japan",
             "price": "$1,480",
             "section": "White",
-            "note": "Golden apple, yellow peach and white pepper. Fruit from Toriibira’s gravelly soils is fermented in old French oak, giving rounded acidity and a long, complex finish."
+            "note": "Citrus peel, white peach and jasmine. Sourced from Grace Wine's historic Toriibira Vineyard, this cuvée showcases the delicacy and precision that have made Koshu Japan's flagship indigenous white grape.",
+            "nameZh": "葛蕾絲酒莊,甲州,日本山梨縣"
           },
           {
             "v": "2023",
-            "name": "Weightstone, Black Queen & Musann Blanc, Nantou, Taiwan / 威石東酒莊,黑后&木杉混釀,台灣南投",
+            "name": "Weightstone, Black Queen & Musann Blanc, Nantou, Taiwan",
             "price": "$1,480",
             "section": "White",
-            "note": "Lychee, rose and sweet spice. This natural co-ferment of Black Queen and Musann Blanc pairs the former’s vivid acidity with the latter’s aromatic richness and fine mineral texture."
+            "note": "Lychee, rose and sweet spice. This natural co-ferment of Black Queen and Musann Blanc pairs the former’s vivid acidity with the latter’s aromatic richness and fine mineral texture.",
+            "nameZh": "威石東酒莊,黑后&木杉混釀,台灣南投"
           },
           {
             "v": "2023",
-            "name": "Mystic Island, Yihu Chardonnay Reserve, Shandong, China / 仙島酒莊,逸湖霞多麗珍藏,中國山東",
+            "name": "Mystic Island, Yihu Chardonnay Reserve, Shandong, China",
             "price": "$2,380",
             "section": "White",
-            "note": "Lemon zest, stone fruit and fine lees. Wild-yeast fermentation and ten months in French oak give creamy breadth, saline definition and persistent flavour."
+            "note": "Lemon zest, stone fruit and fine lees. Wild-yeast fermentation and ten months in French oak give creamy breadth, saline definition and persistent flavour.",
+            "nameZh": "仙島酒莊,逸湖霞多麗珍藏,中國山東"
           }
         ]
       },
@@ -66,31 +79,35 @@ window.WINE_DATA =[
         "items": [
           {
             "v": "2020",
-            "name": "Guanlan Vineyard, Cuvée Faucon, Cabernet Sauvignon, Ningxia, China / 觀蘭酒莊,隼赤霞珠混釀,中國寧夏",
+            "name": "Guanlan Vineyard, Cuvée Faucon, Cabernet Sauvignon, Ningxia, China",
             "price": "$1,480",
             "section": "Red",
-            "note": "Blackcurrant, plum and dried herbs. This Cabernet-led Ningxia blend uses the region’s marked day-to-night temperature range to retain freshness and definition."
+            "note": "Blackcurrant, plum and dried herbs. This Cabernet-led Ningxia blend uses the region’s marked day-to-night temperature range to retain freshness and definition.",
+            "nameZh": "觀蘭酒莊,隼赤霞珠混釀,中國寧夏"
           },
           {
             "v": "2020",
-            "name": "Xige Estate, Jade Dove, Cabernet Gernischt, Ningxia, China / 西鴿酒莊,玉鴿蛇龍珠,中國寧夏",
+            "name": "Xige Estate, Jade Dove, Cabernet Gernischt, Ningxia, China",
             "price": "$1,600",
             "section": "Red",
-            "note": "Plum, dried herbs and white pepper. Old-vine Cabernet Gernischt gives firm but fine tannins, with savoury herbal complexity and a generous fruit core."
+            "note": "Plum, dried herbs and white pepper. Old-vine Cabernet Gernischt gives firm but fine tannins, with savoury herbal complexity and a generous fruit core.",
+            "nameZh": "西鴿酒莊,玉鴿蛇龍珠,中國寧夏"
           },
           {
             "v": "2020",
-            "name": "Long Dai, Hu Yue, Cabernet Sauvignon, Shandong, China / 瓏岱酒莊,琥岳赤霞珠混釀,中國山東",
+            "name": "Long Dai, Hu Yue, Cabernet Sauvignon, Shandong, China",
             "price": "$4,080",
             "section": "Red",
-            "note": "Black cherry, plum and cedar. Produced by Long Dai in Shandong, Hu Yue offers an accessible expression of the estate’s Bordeaux-influenced approach."
+            "note": "Black cherry, plum and cedar. Produced by Long Dai in Shandong, Hu Yue offers an accessible expression of the estate’s Bordeaux-influenced approach.",
+            "nameZh": "瓏岱酒莊,琥岳赤霞珠混釀,中國山東"
           },
           {
             "v": "2013",
-            "name": "Ao Yun, Cabernet Sauvignon, Yunnan, China / 敖雲酒莊,赤霞珠混釀,中國雲南",
+            "name": "Ao Yun, Cabernet Sauvignon, Yunnan, China",
             "price": "$5,680",
             "section": "Red",
-            "note": "Blackberry, cassis and wild herbs. High-altitude vineyards in Yunnan’s Himalayan foothills give Ao Yun concentration with distinctive mountain freshness."
+            "note": "Blackberry, cassis and wild herbs. High-altitude vineyards in Yunnan’s Himalayan foothills give Ao Yun concentration with distinctive mountain freshness.",
+            "nameZh": "敖雲酒莊,赤霞珠混釀,中國雲南"
           }
         ]
       }
@@ -119,10 +136,10 @@ window.WINE_DATA =[
           },
           {
             "v": "NV",
-            "name": "Devaux, Collection D Rose Brut",
-            "price": "Glass $388 · Bottle $1,980",
+            "name": "Billecart-Salmon, Le Rosé Extra Brut",
+            "price": "Glass $428 · Bottle $2,080",
             "section": "Champagne",
-            "note": "Redcurrant, raspberry and apricot. Pinot Noir and Chardonnay from selected parcels are matured for at least five years, giving this rosé notable fruit intensity and refinement."
+            "note": "Wild strawberry, toast and citrus zest. Extended lees ageing and an Extra Brut dosage give this rosé Champagne precise fruit, fine mousse and a dry, focused profile."
           },
           {
             "v": "2017",
@@ -141,14 +158,14 @@ window.WINE_DATA =[
             "name": "Silver Heights, \"Bloom Sparkling Wine\" Brut, Ningxia, China",
             "price": "Glass $228 · Bottle $1,280",
             "section": "Sparkling",
-            "note": "Goji berry, sour plum and grapefruit. Chardonnay and Pinot Noir are blended with Ningxia rice wine during production, giving this pét-nat a distinctly Chinese identity and a dry, tangy profile."
+            "note": "Pear, red cherry and toasted rice. Chardonnay and Pinot Noir are blended with Ningxia rice wine during production, giving this pét-nat a distinctly Chinese identity and a dry, tangy profile."
           },
           {
             "v": "2018",
             "name": "Wiston Estate, Blanc de Noirs Brut, West Sussex, England",
             "price": "Glass $348 · Bottle $1,800",
             "section": "Sparkling",
-            "note": "Baked pear, greengage and toasted almond. Barrel-fermented Pinot Noir gives vinous breadth, sharpened by vivid English acidity."
+            "note": "Baked pear, toasted almond and croissant. Barrel-fermented Pinot Noir gives vinous breadth, sharpened by vivid English acidity."
           }
         ]
       },
@@ -160,35 +177,42 @@ window.WINE_DATA =[
             "name": "Gewurztraminer, \"Rosenberg\", Domaine Barmes Buecher, Alsace, France",
             "price": "Glass $180 · Bottle $880",
             "section": "White",
-            "note": "Yellow rose, lychee and smoke. From a small biodynamically farmed Rosenberg parcel planted in 1995, this is an off-dry Gewurztraminer with freshness balancing its aromatic richness."
+            "note": "Lychee, yellow rose and ginger. From a small biodynamically farmed Rosenberg parcel planted in 1995, this is an off-dry Gewurztraminer with freshness balancing its aromatic richness."
           },
           {
-            "v": "2023",
-            "name": "Sauvignon Blanc, \"Jade Dove\", Xige Estate, Ningxia, China",
-            "price": "Glass $220 · Bottle $1,080",
+            "v": "2024",
+            "name": "Mystic Island, Yihu Cabernet Franc Blanc, Shandong, China",
+            "price": "Glass $180 · Bottle $880",
             "section": "White",
-            "note": "Lemongrass, pear and green mango. Grown in Ningxia, this Sauvignon Blanc combines bright fruit, refreshing acidity and easy-drinking appeal while showcasing the region’s increasingly confident white-wine style."
+            "note": "Grapefruit, orange peel and pineapple. Gently pressed Cabernet Franc gives a colourless, unoaked white with a vibrant citrus core and a long, lively finish."
           },
           {
             "v": "2021",
             "name": "Sauvignon Blanc, \"Taylors Pass\", Villa Maria, Marlborough, New Zealand",
             "price": "Glass $268 · Bottle $1,300",
             "section": "White",
-            "note": "Gooseberry, passion fruit and snow pea. Fruit from the Taylors Pass vineyard produces an unusually concentrated Sauvignon Blanc with pronounced herbal character and subtle mineral texture."
+            "note": "Gooseberry, passion fruit and grass. Fruit from the Taylors Pass vineyard produces an unusually concentrated Sauvignon Blanc with pronounced herbal character and subtle mineral texture."
+          },
+          {
+            "v": "2024",
+            "name": "Soave Classico, Gini, Veneto, Italy",
+            "price": "Glass $200 · Bottle $980",
+            "section": "White",
+            "note": "Wet stone, lemon and almond. Gini's old-vine Garganega from Soave Classico combines mineral precision with the estate's distinctive vineyard character."
           },
           {
             "v": "2023",
             "name": "Riesling, Kiedricher Grafenberg GG, Weingut Robert Weil, Rheingau, Germany",
             "price": "Glass $350 · Bottle $1,680",
             "section": "White",
-            "note": "Lime, white peach and crushed slate. Powerful yet tensile, with crystalline acidity defining its mineral intensity."
+            "note": "Green apple, elderflower and white peach. Powerful yet tensile, with crystalline acidity defining its mineral intensity."
           },
           {
             "v": "2022",
             "name": "Chardonnay, Domaine Paul Pernot, Puligny-Montrachet, Burgundy, France",
             "price": "Glass $468 · Bottle $2,280",
             "section": "White",
-            "note": "White peach, hazelnut and chalk. Silky texture and measured oak preserve Puligny’s cool mineral precision."
+            "note": "Flint, white flowers and Granny Smith apple. Domaine Paul Pernot is known for combining generosity of fruit with the elegance expected of Puligny-Montrachet."
           }
         ]
       },
@@ -233,7 +257,7 @@ window.WINE_DATA =[
             "name": "Zinfandel, \"Geyserville\", Ridge Vineyards, Alexander Valley, USA",
             "price": "Glass $338 · Bottle $1,680",
             "section": "Red",
-            "note": "Black cherry, dark plum and baking spice. Drawn from Ridge’s historic old-vine field blend, the wine combines Zinfandel richness with the structure and complexity of Carignane, Petite Sirah and Alicante Bouschet."
+            "note": "Blackberry, plum and black pepper. Drawn from Ridge's historic Geyserville vineyard, this old-vine field blend combines Zinfandel with Carignane, Petite Sirah and Alicante Bouschet for unusual depth and complexity."
           },
           {
             "v": "2020",
@@ -282,17 +306,19 @@ window.WINE_DATA =[
         "items": [
           {
             "v": "",
-            "name": "Zhen Jiu 15 珍酒 珍十五",
+            "name": "Zhen Jiu 15",
             "price": "Glass (100ml) $585 · Bottle $2,850",
             "section": "Chinese Baijiu & Huadiaojiu",
-            "note": "Roasted grain, dried fruit and black pepper. Fruit and structure remain in proportion, supported by fine tannins and an earthy, composed core."
+            "note": "Roasted grain, dried fruit and liquorice. Crafted from mature reserve stocks and aged base spirits, this classic sauce-aroma bottling combines richness with notable refinement.",
+            "nameZh": "珍酒 珍十五"
           },
           {
             "v": "",
-            "name": "Xian Heng Huadiaojiu 25 Years Old 咸亨・雕皇25年大葫蘆",
+            "name": "Xian Heng Huadiaojiu 25 Years Old",
             "price": "Glass (250ml) $388",
             "section": "Chinese Baijiu & Huadiaojiu",
-            "note": "Walnut, dried fig and caramel. Concentrated but controlled, with textural tannins and freshness carrying the savoury detail."
+            "note": "Walnut, dried fig and caramel. Concentrated but controlled, with textural tannins and freshness carrying the savoury detail.",
+            "nameZh": "咸亨・雕皇25年大葫蘆"
           }
         ]
       },
@@ -336,7 +362,7 @@ window.WINE_DATA =[
             "name": "Champagne Sangria",
             "price": "$225",
             "section": "Champagne Cocktails",
-            "note": "Lemon zest and orchard fruit lead into brioche, chalk and gentle spice."
+            "note": "Citrus, peach and brioche. Champagne is combined with seasonal fruit to create a sparkling interpretation of traditional sangria with fresh fruit character and gentle richness."
           }
         ]
       },
@@ -348,14 +374,14 @@ window.WINE_DATA =[
             "name": "Melon Matsuri",
             "price": "$180",
             "section": "Seasonal Cocktails",
-            "note": "Belvedere Vodka, melon liqueur, Savoia Orancio, St; light-footed and precise."
+            "note": "Melon, orange and citrus peel. Belvedere Vodka, melon liqueur and Savoia Orancio combine in a bright, fruit-forward cocktail with Italian aperitif influence."
           },
           {
             "v": "",
             "name": "Sakura High Ball",
             "price": "$180",
             "section": "Seasonal Cocktails",
-            "note": "Sweet potato shochu, lychee, sakura & soda; lean, bright and clean-cut."
+            "note": "Lychee, cherry blossom and citrus. Sweet potato shochu, lychee, sakura and soda create a clean Japanese-inspired highball with delicate floral lift."
           }
         ]
       },
@@ -367,14 +393,14 @@ window.WINE_DATA =[
             "name": "Romance Florist",
             "price": "$145",
             "section": "Signature Mocktails",
-            "note": "Light-footed and precise."
+            "note": "Rose, peach and watermelon. Rose-infused Seedlip Garden 108, peach, watermelon and lemon create a floral alcohol-free cocktail with vibrant fruit character and refreshing citrus lift."
           },
           {
             "v": "",
             "name": "Summer SP-Ritz",
             "price": "$145",
             "section": "Signature Mocktails",
-            "note": "Layers lyre’s Italian Spritz, strawberry, pineapple & lemon."
+            "note": "Strawberry, pineapple and lemon. Lyre's Italian Spritz, strawberry, pineapple and lemon create a vibrant alcohol-free aperitif with juicy fruit and gentle bittersweet character."
           }
         ]
       },
@@ -386,28 +412,28 @@ window.WINE_DATA =[
             "name": "Aperol",
             "price": "$160",
             "section": "Aperitifs",
-            "note": "Lifted, refreshing and precisely balanced, with the ingredients expressed in a clean, smooth style; light-footed and precise."
+            "note": "Blood orange, rhubarb and gentian. Italy's iconic aperitivo combines bittersweet citrus character with a refreshing, low-alcohol profile."
           },
           {
             "v": "",
             "name": "Campari",
             "price": "$160",
             "section": "Aperitifs",
-            "note": "Brings lifted, refreshing and precisely balanced, with the ingredients expressed in a clean, refined style."
+            "note": "Bitter orange, cherry and gentian. Campari's secret botanical recipe delivers the intense bittersweet character that defines classic Italian aperitifs."
           },
           {
             "v": "",
             "name": "Martini",
             "price": "$160",
             "section": "Aperitifs",
-            "note": "Shows lifted, refreshing and precisely balanced, with the ingredients expressed in a clean, smooth style."
+            "note": "Lemon peel, alpine herbs and white flowers. This historic vermouth combines fortified wine with carefully selected botanicals for a fresh, aromatic style."
           },
           {
             "v": "",
             "name": "Fernet-Branca",
             "price": "$160",
             "section": "Aperitifs",
-            "note": "Offers lifted, refreshing and precisely balanced, with the ingredients expressed in a clean, polished style."
+            "note": "Mint, saffron and myrrh. More than two dozen botanicals contribute to Fernet-Branca's intensely herbal and unmistakably bitter character."
           }
         ]
       },
@@ -419,7 +445,7 @@ window.WINE_DATA =[
             "name": "Gaja Grappa di Gaia & Rey",
             "price": "Glass $330 · Bottle $3,300",
             "section": "Digestives - Grappa",
-            "note": "Leads with lifted, refreshing and precisely balanced, with the ingredients expressed in a clean, smooth style; light-footed and precise."
+            "note": "Pear, white flowers and almond. Distilled from Chardonnay pomace originating from Gaja's Gaia & Rey vineyard, this grappa combines aromatic lift with notable finesse."
           }
         ]
       },
@@ -431,56 +457,56 @@ window.WINE_DATA =[
             "name": "Hennessy VSOP",
             "price": "Glass $165 · Bottle $2,365",
             "section": "Brandy & Cognac",
-            "note": "Dried fruit, vanilla, oak, spice & velvety warmth."
+            "note": "Dried apricot, vanilla and cinnamon. Extended barrel ageing gives greater depth and spice while retaining the house's characteristic balance."
           },
           {
             "v": "",
             "name": "Martell VSOP",
             "price": "Glass $195 · Bottle $2,290",
             "section": "Brandy & Cognac",
-            "note": "Shows dried fruit, vanilla, oak, warm spice & velvety warmth; rich at the centre, fresh at the edges."
+            "note": "Apricot, vanilla and toasted almond. A high proportion of Borderies eaux-de-vie gives Martell's VSOP its distinctive aromatic elegance."
           },
           {
             "v": "",
             "name": "Martell Cordon Bleu",
             "price": "Glass $245 · Bottle $3,520",
             "section": "Brandy & Cognac",
-            "note": "Gives dried fruit, vanilla, oak, peppery spice & velvety warmth; firmly built, with a dry savoury close."
+            "note": "Candied orange, plum and spice. First created in 1912, Cordon Bleu remains the house's signature cognac, recognised for richness and complexity."
           },
           {
             "v": "",
             "name": "Remy Martin XO",
             "price": "Glass $305 · Bottle $4,360",
             "section": "Brandy & Cognac",
-            "note": "Layers dried fruit, vanilla, oak, warm spice & velvety warmth; rich at the centre, fresh at the edges."
+            "note": "Fig, candied orange and cinnamon. Produced exclusively from Grande and Petite Champagne crus, this XO combines concentration with refinement."
           },
           {
             "v": "",
             "name": "Hennessy XO",
             "price": "Glass $350 · Bottle $5,015",
             "section": "Brandy & Cognac",
-            "note": "Centres on dried fruit, vanilla, oak, peppery spice & velvety warmth; broad in flavour, then neatly refreshed."
+            "note": "Dried fruit, cocoa and clove. One of the original XO cognacs, it delivers remarkable depth from a broad selection of mature eaux-de-vie."
           },
           {
             "v": "",
             "name": "Hennessy XO (350ml)",
             "price": "Bottle $2,580",
             "section": "Brandy & Cognac",
-            "note": "Carries dried fruit, vanilla, oak, warm spice & velvety warmth; rich at the centre, fresh at the edges."
+            "note": "Dried fruit, cocoa and clove. One of the original XO cognacs, it delivers remarkable depth from a broad selection of mature eaux-de-vie."
           },
           {
             "v": "",
             "name": "Hennessy Paradis Rare",
             "price": "Glass $3,600 · Bottle $55,800",
             "section": "Brandy & Cognac",
-            "note": "Leads with dried fruit, vanilla, oak, peppery spice & velvety warmth; firmly built, with a dry savoury close."
+            "note": "Dried apricot, rose and spice. A blend of exceptionally mature eaux-de-vie selected for elegance, texture and aromatic persistence."
           },
           {
             "v": "",
             "name": "Remy Martin Louis XIII",
             "price": "Glass $4,800 · Bottle $74,400",
             "section": "Brandy & Cognac",
-            "note": "Centres on dried fruit, vanilla, oak, warm spice & velvety warmth."
+            "note": "Dried fig, cedar and saffron. Created from generations of Grande Champagne eaux-de-vie, Louis XIII is renowned for extraordinary complexity and length."
           }
         ]
       }
@@ -704,35 +730,35 @@ window.WINE_DATA =[
             "name": "The Ritz-Carlton Hong Kong Signature \"Framed Views\" Beer",
             "price": "Bottle $98",
             "section": "BEERS",
-            "note": "Crisp malt and a clean line of bitterness make this direct and refreshing; light-footed and precise."
+            "note": "Fresh bread, citrus peel and noble hops. Brewed exclusively for The Ritz-Carlton Hong Kong, this house lager combines clean malt character with a crisp, refreshing finish."
           },
           {
             "v": "",
             "name": "Asahi Dry",
             "price": "Bottle $98",
             "section": "BEERS",
-            "note": "Light malt, brisk carbonation and a clean, dry finish."
+            "note": "Rice cracker, lemon peel and white pepper. Asahi’s pioneering Super Dry style is defined by high attenuation, giving exceptional clarity and a notably clean finish."
           },
           {
             "v": "",
             "name": "Corona",
             "price": "Bottle $98",
             "section": "BEERS",
-            "note": "Light-bodied and crisp, with gentle malt and mild bitterness."
+            "note": "Lime zest, cereal grain and white bread. Light-bodied and easy-drinking, Corona remains one of the world's most recognisable international lagers."
           },
           {
             "v": "",
             "name": "Tsing Tao",
             "price": "Bottle $98",
             "section": "BEERS",
-            "note": "Clean and refreshing, with light grain and a mild hop finish."
+            "note": "Cracker, floral hops and citrus peel. Brewed in Qingdao since 1903, it balances delicate hop character with a refreshing, approachable profile."
           },
           {
             "v": "",
             "name": "Peroni 0.0% (100% alcohol-free)",
             "price": "Bottle $98",
             "section": "BEERS",
-            "note": "Alcohol-free lager with light malt, fresh carbonation and a clean finish."
+            "note": "Bread dough, lemon peel and herbal hops. This alcohol-free version preserves the crisp, dry style that defines Peroni's modern Italian lager character."
           }
         ]
       },
@@ -744,7 +770,7 @@ window.WINE_DATA =[
             "name": "Guinness Draft",
             "price": "Can $120",
             "section": "DRAFT BEERS",
-            "note": "Roasted malt, coffee and cocoa, with a creamy texture and dry finish."
+            "note": "Roasted coffee, cocoa and toasted barley. Nitrogen dispensing creates the creamy texture and dense foam that have become hallmarks of Guinness Draft."
           }
         ]
       },
@@ -756,14 +782,14 @@ window.WINE_DATA =[
             "name": "Evian (750ml)",
             "price": "Bottle $108",
             "section": "STILL WATER",
-            "note": "Soft, clean and neutral, with light mineral freshness."
+            "note": "Chalk, white stone and fresh minerality. Naturally filtered through Alpine glacial geology, Evian is recognised for its purity and balanced mineral profile."
           },
           {
             "v": "",
             "name": "Acqua Panna (750ml)",
             "price": "Bottle $108",
             "section": "STILL WATER",
-            "note": "Smooth and still, with a soft, rounded mineral profile."
+            "note": "White stone, almond and soft minerality. Sourced from Tuscany, Acqua Panna is valued for its gentle texture and understated mineral character."
           }
         ]
       },
@@ -775,14 +801,14 @@ window.WINE_DATA =[
             "name": "Evian Sparkling (750ml)",
             "price": "Bottle $108",
             "section": "SPARKLING WATER",
-            "note": "The palate balances creamy texture with lively acidity and discreet savoury complexity."
+            "note": "White stone, citrus peel and fresh minerality. Fine bubbles enhance the purity and balance associated with Evian’s natural mineral composition."
           },
           {
             "v": "",
             "name": "San Pellegrino (750ml)",
             "price": "Bottle $108",
             "section": "SPARKLING WATER",
-            "note": "Fine bubbles, clean minerality and a dry finish. This Italian sparkling mineral water offers lively refreshment at the table."
+            "note": "Mineral salt, citrus peel and chalk. Naturally carbonated and sourced in Lombardy, San Pellegrino combines lively effervescence with distinctive mineral freshness."
           }
         ]
       },
@@ -982,28 +1008,28 @@ window.WINE_DATA =[
             "name": "Château Haut-Brion",
             "price": "$9,880",
             "section": "Red",
-            "note": "Cassis, violet and cedar."
+            "note": "Cassis, smoke and cedar. Haut-Brion's distinctive gravel-soil signature brings smoky complexity and unusual aromatic depth to this refined 2014 vintage."
           },
           {
             "v": "1998",
             "name": "Château Mouton Rothschild",
             "price": "$13,680",
             "section": "Red",
-            "note": "Black plum, bay leaf and smoke. Ripe and composed, its mature fruit retaining notable authority."
+            "note": "Black plum, cigar box and cedar. Ripe and composed, its mature fruit retaining notable authority."
           },
           {
             "v": "2003",
             "name": "Château Mouton Rothschild",
             "price": "$13,680",
             "section": "Red",
-            "note": "Blackberry, mint and iron. Sun-warmed and broad, yet the estate’s structure keeps the ripe fruit in check."
+            "note": "Blackberry, exotic spice and iron. Sun-warmed and broad, yet the estate’s structure keeps the ripe fruit in check."
           },
           {
             "v": "2017",
             "name": "Château Mouton Rothschild",
             "price": "$9,380",
             "section": "Red",
-            "note": "Blackberry, sandalwood and earth. Elegant rather than massive, with aromatic lift and a finely drawn frame."
+            "note": "Blackcurrant, violet and liquorice. Mouton remains the most flamboyant of the First Growths, combining Pauillac structure with unmistakable aromatic richness."
           },
           {
             "v": "1998",
@@ -1024,28 +1050,28 @@ window.WINE_DATA =[
             "name": "Château Lafite Rothschild",
             "price": "$12,980",
             "section": "Red",
-            "note": "Blackberry, sandalwood and earth. Ripe and expressive, balancing generous fruit with polished structure."
+            "note": "Cassis, cedar and pencil shavings. The generous 2015 vintage retains Lafite's hallmark precision and understated power."
           },
           {
             "v": "1990",
             "name": "Château Margaux",
             "price": "$23,800",
             "section": "Red",
-            "note": "Dried plum, cedar and tobacco. Opulent in vintage character, now softened by tobacco and warm earth."
+            "note": "Dried blackberry, cigar box and rose petal. One of the estate's legendary mature vintages, combining profound concentration with remarkable aromatic complexity."
           },
           {
             "v": "2003",
             "name": "Château Margaux",
             "price": "$19,800",
             "section": "Red",
-            "note": "Blackcurrant, cedar and graphite. Sun-warmed and broad, yet the estate’s structure keeps the ripe fruit in check."
+            "note": "Blackcurrant, violet and graphite. The warm 2003 vintage brings greater richness, yet Château Margaux retains remarkable fragrance and poise."
           },
           {
             "v": "2011",
             "name": "Château Margaux",
             "price": "$10,900",
             "section": "Red",
-            "note": "Blackberry, mint and iron. Lighter on its feet, led by perfume, freshness and a more approachable frame."
+            "note": "Blackberry, dried rose and iron. Lighter on its feet, led by perfume, freshness and a more approachable frame."
           },
           {
             "v": "1982",
@@ -1066,14 +1092,14 @@ window.WINE_DATA =[
             "name": "Château Latour",
             "price": "$10,800",
             "section": "Red",
-            "note": "Black plum, cedar and tobacco."
+            "note": "Cassis, graphite and cigar box. Even in cooler years, Latour's Enclos vineyard delivers remarkable density and longevity."
           },
           {
             "v": "1982",
             "name": "Pétrus",
             "price": "$89,880",
             "section": "Red",
-            "note": "Black plum, violet and truffle. Dense Merlot fruit is matched by velvety power, mineral depth and an exceptionally persistent finish."
+            "note": "Black plum, cocoa and truffle. Dense Merlot fruit is matched by velvety power, mineral depth and an exceptionally persistent finish."
           },
           {
             "v": "1988",
@@ -1145,14 +1171,14 @@ window.WINE_DATA =[
             "name": "Charles Heidsieck, Rosé Millésime, Brut",
             "price": "$2,580",
             "section": "Champagne",
-            "note": "Raspberry, rose petal and chalk. Defined by integrated bubbles, citrus tension and a dry, savoury close."
+            "note": "Sour cherry, orange zest and cinnamon. Defined by fresh fruit carried by precise bubbles and discreet pastry notes."
           },
           {
             "v": "2003",
             "name": "Tarlant, La Vigne Royale, Blanc de Noirs, Extra Brut",
             "price": "$2,680",
             "section": "Champagne",
-            "note": "Red apple, wild strawberry and toast. Defined by fine mousse, bright acidity and restrained autolytic depth."
+            "note": "Sour cherry, orange peel and pastry. Develops through fine mousse, bright acidity and restrained autolytic depth."
           },
           {
             "v": "2002",
@@ -1173,7 +1199,7 @@ window.WINE_DATA =[
             "name": "Krug, Grande Cuvée 171ème Édition Brut",
             "price": "$4,180",
             "section": "Champagne",
-            "note": "Candied lemon, baked apple and hazelnut. The texture is expansive yet controlled, combining mature reserve-wine complexity with bright citrus tension."
+            "note": "Burnished lemon, red apple and toasted brioche. Built around the 2015 harvest with 131 wines from 12 years, this edition combines chalky drive with savoury depth."
           },
           {
             "v": "2016",
@@ -1194,7 +1220,7 @@ window.WINE_DATA =[
             "name": "Charles Heidsieck, La Collection Crayères Brut",
             "price": "$7,380",
             "section": "Champagne",
-            "note": "Dried orange peel, candied lemon and toasted almond. Shows creamy texture held in check by chalky freshness."
+            "note": "Dried orange peel, orange blossom and chalk. On the palate, a buoyant mousse over a firm line of mineral acidity."
           }
         ]
       },
@@ -1248,14 +1274,14 @@ window.WINE_DATA =[
             "name": "Corton-Charlemagne Grand Cru, Domaine Ponsot",
             "price": "$7,980",
             "section": "Bourgogne Blanc",
-            "note": "Yellow plum, lemon peel and almond. Shaped by measured ripeness, mineral tension and a clean finish."
+            "note": "Yellow plum, lemon peel and almond. Defined by measured ripeness, mineral tension and a clean finish."
           },
           {
             "v": "2013",
             "name": "Montrachet Grand Cru, Domaine Jean Chartron",
             "price": "$16,000",
             "section": "Bourgogne Blanc",
-            "note": "Yellow apple, citrus peel and toast. On the palate, measured ripeness, mineral tension and a clean finish."
+            "note": "Yellow apple, citrus peel and toast. Balances a composed texture followed by saline, gently phenolic detail."
           }
         ]
       },
@@ -1309,68 +1335,68 @@ window.WINE_DATA =[
             "name": "Musigny Grand Cru \"Cuvée Vieilles Vignes\", Domaine Comte Georges de Vogüé",
             "price": "$16,750",
             "section": "Bourgogne Rouge",
-            "note": "Raspberry, dried rose and white pepper. Domaine Comte Georges de Vogüé is regarded as the reference producer of Musigny, combining profound depth with exceptional refinement."
+            "note": "Raspberry, dried rose and incense. Domaine Comte Georges de Vogüé is regarded as the reference producer of Musigny, combining profound depth with exceptional refinement."
           }
         ]
       },
       {
-        "name": "Bordeaux Rouge",
+        "name": "Red Bordeaux",
         "items": [
           {
             "v": "2010",
             "name": "Château Brane-Cantenac, 2ème Cru Classé, Margaux",
             "price": "$2,788",
             "section": "Bordeaux Rouge",
-            "note": "Black plum, cedar and tobacco."
+            "note": "Blackberry, iris and pencil shavings. Brane-Cantenac’s fragrant, precise style was amplified by the exceptional balance and concentration of the 2010 vintage."
           },
           {
             "v": "2012",
             "name": "Vieux Château Certan, Pomerol",
             "price": "$4,280",
             "section": "Bordeaux Rouge",
-            "note": "Black plum, cedar and tobacco. Supple and even-tempered, with moderate weight and polished structure."
+            "note": "Black cherry, iris and graphite. The Merlot-led 2012 gains aromatic lift and complexity from Cabernet Franc, expressing the pedigree and balance of the Pomerol plateau."
           },
           {
             "v": "2008",
             "name": "Château Trotanoy, Pomerol",
             "price": "$5,480",
             "section": "Bordeaux Rouge",
-            "note": "Cassis, violet and cedar. Cooler and classical, favouring graphite, freshness and measured ripeness."
+            "note": "Black plum, iron and violet. The classical 2008 vintage retains Trotanoy’s characteristic power and depth while showing unusual freshness and aromatic clarity."
           },
           {
             "v": "2008",
             "name": "Château La Mission Haut-Brion, Pessac Leognan",
             "price": "$6,550",
             "section": "Bordeaux Rouge",
-            "note": "Blackcurrant, cedar and graphite. Cooler and classical, favouring graphite, freshness and measured ripeness."
+            "note": "Black plum, graphite and smoke. La Mission’s 2008 combines the estate’s smoky Graves character with the concentration and freshness achieved in this classical vintage."
           },
           {
             "v": "2005",
             "name": "Château Léoville Las Cases, 2ème Cru Classé, St Julien",
             "price": "$7,680",
             "section": "Bordeaux Rouge",
-            "note": "Blackberry, sandalwood and earth."
+            "note": "Cassis, graphite and tobacco leaf. The celebrated 2005 vintage showcases Léoville Las Cases’ exceptional depth, precision and long-lived, almost Pauillac-like structure."
           },
           {
             "v": "2000",
             "name": "Château La Fleur-Pétrus, Pomerol",
             "price": "$7,980",
             "section": "Bordeaux Rouge",
-            "note": "Black plum, cedar and tobacco. Dense and complete, combining millennium-vintage depth with classical structure."
+            "note": "Black cherry, violet and cedar. The millennium vintage combines Pomerol richness with remarkable freshness, polish and developing tertiary complexity."
           },
           {
             "v": "1989",
             "name": "Château Montrose, 2ème Cru Classé, Saint-Estephe",
             "price": "$8,280",
             "section": "Bordeaux Rouge",
-            "note": "Dried redcurrant, blood orange and rose petal. Supple fruit is sharpened by citrusy acidity and a subtle herbal edge."
+            "note": "Dried blackberry, cedar and tobacco. The powerful 1989 remains a benchmark Montrose, combining mature complexity with the structure and extraordinary longevity of classic Saint-Estèphe."
           },
           {
             "v": "1995",
             "name": "Château Angélus, 1er Grand Cru Classé B, Saint-Émilion",
             "price": "$9,280",
             "section": "Bordeaux Rouge",
-            "note": "Dried cassis, violet and cedar. Structured and restrained, with the cool firmness typical of 1995."
+            "note": "Black cherry, black olive and truffle. The structured 1995 captures an earlier, more classical Angélus style, with concentrated Merlot and Cabernet Franc fruit framed by persistent tannins."
           }
         ]
       }
@@ -1526,7 +1552,7 @@ window.WINE_DATA =[
             "name": "Barons de Rothschild, \"Ritz\" Blanc de Blancs",
             "price": "$1,628",
             "section": "Barons de Rothschild Ritz Cuvee selection",
-            "note": "Lemon pith, white peach and chalk. Useful mid-palate weight is achieved without loss of freshness."
+            "note": "Lemon pith, white peach and chalk. Produced exclusively for Ritz-Carlton properties, it emphasises Chardonnay purity and linear freshness."
           },
           {
             "v": "NV",
@@ -1865,7 +1891,7 @@ window.WINE_DATA =[
             "name": "Barons de Rothschild, \"Ritz\" Millésime",
             "price": "$2,040",
             "section": "Vintage",
-            "note": "White peach, preserved lemon and pastry. Develops through creamy texture held in check by chalky freshness."
+            "note": "White peach, preserved lemon and pastry. Produced exclusively for Ritz-Carlton properties, this vintage cuvée combines extended lees ageing with refined Chardonnay-led precision."
           },
           {
             "v": "2014",
@@ -1927,6 +1953,13 @@ window.WINE_DATA =[
             "price": "$1,648",
             "section": "Rose",
             "note": "Wild strawberry, rose petal and lemon peel. The cuvée is distinguished by a fresh, concise attack, silky mid-palate and lingering finish."
+          },
+          {
+            "v": "NV",
+            "name": "Billecart-Salmon, Le Rosé Extra Brut",
+            "price": "$2,080",
+            "section": "Rose",
+            "note": "Wild strawberry, toast and citrus zest. Extended lees ageing and an Extra Brut dosage give this rosé Champagne precise fruit, fine mousse and a dry, focused profile."
           },
           {
             "v": "NV",
@@ -2151,7 +2184,7 @@ window.WINE_DATA =[
             "name": "Silver Heights Bloom, Ningxia, China",
             "price": "$1,280",
             "section": "Sparkling Wine",
-            "note": "Goji berry, sour plum and grapefruit. Chardonnay and Pinot Noir are blended with Ningxia rice wine during production, giving this pét-nat a distinctly Chinese identity and a dry, tangy profile."
+            "note": "Pear, red cherry and toasted rice. Chardonnay and Pinot Noir are blended with Ningxia rice wine during production, giving this pét-nat a distinctly Chinese identity and a dry, tangy profile."
           }
         ]
       }
@@ -2222,6 +2255,18 @@ window.WINE_DATA =[
             "price": "$1,780",
             "section": "Friuli Venezia Giulia",
             "note": "Ripe peach, vanilla and almond cream. Dreams is Jermann's flagship Chardonnay, recognised for generous fruit and polished oak integration."
+          }
+        ]
+      },
+      {
+        "name": "Veneto",
+        "items": [
+          {
+            "v": "2024",
+            "name": "Gini Soave Classico",
+            "price": "$980",
+            "section": "Veneto",
+            "note": "Wet stone, lemon and almond. Gini's old-vine Garganega from Soave Classico combines mineral precision with the estate's distinctive vineyard character."
           }
         ]
       },
@@ -2367,7 +2412,7 @@ window.WINE_DATA =[
             "name": "Riesling Kiedricher Gräfenberg Grosses Gewächs, Weingut Robert Weil",
             "price": "$1,680",
             "section": "Rheingau",
-            "note": "Lime, white peach and crushed slate. Powerful yet tensile, with crystalline acidity defining its mineral intensity."
+            "note": "Green apple, elderflower and white peach. Powerful yet tensile, with crystalline acidity defining its mineral intensity."
           }
         ]
       },
@@ -2464,7 +2509,7 @@ window.WINE_DATA =[
             "name": "Domaine Barmes Buecher, \"Rosenberg\" Gewurztraminer",
             "price": "$880",
             "section": "Alsace",
-            "note": "Yellow rose, lychee and smoke. From a small biodynamically farmed Rosenberg parcel planted in 1995, this is an off-dry Gewurztraminer with freshness balancing its aromatic richness."
+            "note": "Lychee, yellow rose and ginger. From a small biodynamically farmed Rosenberg parcel planted in 1995, this is an off-dry Gewurztraminer with freshness balancing its aromatic richness."
           },
           {
             "v": "2023",
@@ -2570,7 +2615,7 @@ window.WINE_DATA =[
             "name": "Château Haut-Brion Blanc",
             "price": "$26,500",
             "section": "Bordeaux",
-            "note": "Quince, grapefruit and smoke. One of Bordeaux's most celebrated dry whites, renowned for its complexity, longevity and rarity."
+            "note": "Quince, citrus peel and wet stone. One of Bordeaux’s most celebrated dry whites, Haut-Brion Blanc combines concentration with exceptional complexity and longevity."
           },
           {
             "v": "2013",
@@ -2712,7 +2757,7 @@ window.WINE_DATA =[
             "name": "Puligny-Montrachet, Domaine Paul Pernot",
             "price": "$2,280",
             "section": "Puligny-Montrachet",
-            "note": "White peach, hazelnut and chalk. Domaine Paul Pernot is known for combining generosity of fruit with the elegance expected of Puligny-Montrachet."
+            "note": "Flint, white flowers and Granny Smith apple. Domaine Paul Pernot is known for combining generosity of fruit with the elegance expected of Puligny-Montrachet."
           },
           {
             "v": "2018",
@@ -2991,7 +3036,7 @@ window.WINE_DATA =[
             "name": "Villa Maria, \"Taylors Pass\", Marlborough, New Zealand",
             "price": "$1,300",
             "section": "Sauvignon Blanc",
-            "note": "Gooseberry, passion fruit and snow pea. Fruit from the Taylors Pass vineyard produces an unusually concentrated Sauvignon Blanc with pronounced herbal character and subtle mineral texture."
+            "note": "Gooseberry, passion fruit and grass. Fruit from the Taylors Pass vineyard produces an unusually concentrated Sauvignon Blanc with pronounced herbal character and subtle mineral texture."
           },
           {
             "v": "2009",
@@ -3016,8 +3061,8 @@ window.WINE_DATA =[
             "v": "2024",
             "name": "Yihu Cabernet Franc Blanc, Mystic Island, Shandong, China",
             "price": "$880",
-            "section": "Sauvignon Blanc",
-            "note": "White peach, fennel and wet stone. Notable for a composed texture followed by saline, gently phenolic detail."
+            "section": "Indigenous & Curiosities",
+            "note": "Grapefruit, orange peel and pineapple. Gently pressed Cabernet Franc gives a colourless, unoaked white with a vibrant citrus core and a long, lively finish."
           },
           {
             "v": "2023",
@@ -3290,7 +3335,7 @@ window.WINE_DATA =[
             "name": "Jermann \"W…Dreams\"",
             "price": "$3,780 · Magnum",
             "section": "White Wines",
-            "note": "Yellow apple, citrus peel and toast. Balances useful mid-palate weight without loss of freshness."
+            "note": "Yellow apple, citrus peel and toast. The 2013 vintage combines Chardonnay richness with freshness and polished oak, showing more savoury development in magnum."
           },
           {
             "v": "2018",
@@ -3405,7 +3450,7 @@ window.WINE_DATA =[
             "name": "Tenuta dell'Ornellaia 'Ornellaia'",
             "price": "$79,800 · 6 Liters",
             "section": "Italy",
-            "note": "Blackcurrant, cedar and cocoa. Ornellaia's flagship blend captures the balance between Bolgheri generosity and sustained refinement."
+            "note": "Dried blackcurrant, cedar and cocoa. Bottle age has brought savoury complexity to this early Ornellaia vintage while preserving the estate’s characteristic Bolgheri richness."
           },
           {
             "v": "2008",
@@ -3625,7 +3670,7 @@ window.WINE_DATA =[
             "name": "San Leonardo",
             "price": "$3,300",
             "section": "Trentino Alto Adige",
-            "note": "Cassis, violet and cedar. Mature development adds savoury nuance while preserving the freshness that has become San Leonardo's signature."
+            "note": "Cassis, violet and cedar. San Leonardo's Bordeaux-inspired blend remains defined by remarkable freshness, even after extended bottle ageing."
           }
         ]
       },
@@ -4172,7 +4217,7 @@ window.WINE_DATA =[
             "name": "Caprili 'AdAlberto' Riserva",
             "price": "$2,880",
             "section": "Brunello di Montalcino",
-            "note": "Sour cherry, dried herbs and terracotta."
+            "note": "Sour cherry, dried herbs and terracotta. Caprili's Riserva combines traditional Montalcino character with the freshness and structure typical of the estate's northern vineyards."
           },
           {
             "v": "2011",
@@ -4466,14 +4511,14 @@ window.WINE_DATA =[
             "name": "Château Haut-Brion",
             "price": "$9,880",
             "section": "Graves",
-            "note": "Cassis, violet and cigar box. Haut-Brion's distinctive gravel-soil signature brings smoky complexity and unusual aromatic depth to this refined 2014 vintage."
+            "note": "Cassis, smoke and cedar. Haut-Brion's distinctive gravel-soil signature brings smoky complexity and unusual aromatic depth to this refined 2014 vintage."
           },
           {
             "v": "2008",
             "name": "Château La Mission Haut-Brion",
             "price": "$6,550",
             "section": "Graves",
-            "note": "Black plum, bay leaf and smoke. Cooler and classical, favouring graphite, freshness and measured ripeness."
+            "note": "Black plum, graphite and smoke. La Mission’s 2008 combines the estate’s smoky Graves character with the concentration and freshness achieved in this classical vintage."
           },
           {
             "v": "2014",
@@ -4525,7 +4570,7 @@ window.WINE_DATA =[
             "name": "Château Brane-Cantenac",
             "price": "$2,788",
             "section": "Margaux",
-            "note": "Blackberry, iris and pencil shavings. Brane-Cantenac is prized for precision and fragrance, qualities amplified by the outstanding 2010 vintage."
+            "note": "Blackberry, iris and pencil shavings. Brane-Cantenac’s fragrant, precise style was amplified by the exceptional balance and concentration of the 2010 vintage."
           },
           {
             "v": "2021",
@@ -4572,14 +4617,14 @@ window.WINE_DATA =[
             "name": "Château Margaux",
             "price": "$10,900",
             "section": "Chateau Margaux",
-            "note": "Blackberry, mint and iron. Lighter on its feet, led by perfume, freshness and a more approachable frame."
+            "note": "Blackberry, dried rose and iron. Lighter on its feet, led by perfume, freshness and a more approachable frame."
           },
           {
             "v": "2003",
             "name": "Château Margaux",
             "price": "$19,450",
             "section": "Chateau Margaux",
-            "note": "Blackberry, violet and sandalwood. The warm 2003 vintage brings greater richness, yet Château Margaux retains remarkable fragrance and poise."
+            "note": "Blackcurrant, violet and graphite. The warm 2003 vintage brings greater richness, yet Château Margaux retains remarkable fragrance and poise."
           },
           {
             "v": "1990",
@@ -4631,35 +4676,35 @@ window.WINE_DATA =[
             "name": "Château Clerc-Milon",
             "price": "$2,680",
             "section": "Pauillac",
-            "note": "Blackcurrant, cedar and graphite. Château Clerc-Milon is known for combining Pauillac's Cabernet-driven structure with a notably expressive and approachable house style."
+            "note": "Blackcurrant, violet and cedar. Château Clerc-Milon is known for combining Pauillac's Cabernet-driven structure with a notably expressive and approachable house style."
           },
           {
             "v": "2012",
             "name": "Château Duhart-Milon",
             "price": "$2,048",
             "section": "Pauillac",
-            "note": "Blackcurrant, pencil shavings and cedar chest. Closely associated with Lafite Rothschild, Duhart-Milon is known for restraint, precision and classic Pauillac elegance."
+            "note": "Cassis, cedar and pencil shavings. Closely associated with Lafite Rothschild, Duhart-Milon is known for restraint, precision and classic Pauillac elegance."
           },
           {
             "v": "2018",
             "name": "Château Haut Pauillac",
             "price": "$1,430",
             "section": "Pauillac",
-            "note": "Blackberry, cedar and cocoa. The ripe 2018 vintage brings generous fruit while retaining Pauillac's hallmark structure."
+            "note": "Blackcurrant, cedar and dried herbs. The ripe 2018 vintage brings generous fruit while retaining Pauillac's hallmark structure."
           },
           {
             "v": "2021",
             "name": "Château Lynch-Bages",
             "price": "$2,880",
             "section": "Pauillac",
-            "note": "Cassis, tobacco leaf and graphite. The cooler 2021 vintage emphasises classical Pauillac structure and estate character."
+            "note": "Blackberry, graphite and cigar box. The cooler 2021 vintage emphasises classical Pauillac structure and estate character."
           },
           {
             "v": "2015",
             "name": "Château Pichon-Longueville Baron",
             "price": "$4,380",
             "section": "Pauillac",
-            "note": "Blackcurrant, cedar and graphite. The exceptional 2015 vintage amplifies Pichon Baron's concentration while preserving its classical Pauillac structure."
+            "note": "Cassis, liquorice and graphite. The exceptional 2015 vintage amplifies Pichon Baron's concentration while preserving its classical Pauillac structure."
           },
           {
             "v": "2014",
@@ -4737,21 +4782,21 @@ window.WINE_DATA =[
             "name": "Château Mouton Rothschild",
             "price": "$14,800",
             "section": "Chateau Mouton Rothschild",
-            "note": "Black plum, bay leaf and smoke. Ripe and composed, its mature fruit retaining notable authority."
+            "note": "Black plum, cigar box and cedar. Ripe and composed, its mature fruit retaining notable authority."
           },
           {
             "v": "2003",
             "name": "Château Mouton Rothschild",
             "price": "$13,680",
             "section": "Chateau Mouton Rothschild",
-            "note": "Blackberry, mint and iron. Sun-warmed and broad, yet the estate’s structure keeps the ripe fruit in check."
+            "note": "Blackberry, exotic spice and iron. Sun-warmed and broad, yet the estate’s structure keeps the ripe fruit in check."
           },
           {
             "v": "2017",
             "name": "Château Mouton Rothschild",
             "price": "$9,380",
             "section": "Chateau Mouton Rothschild",
-            "note": "Blackberry, cedar and exotic spice. Mouton remains the most flamboyant of the First Growths, combining Pauillac structure with unmistakable aromatic richness."
+            "note": "Blackcurrant, violet and liquorice. Mouton remains the most flamboyant of the First Growths, combining Pauillac structure with unmistakable aromatic richness."
           }
         ]
       },
@@ -4777,7 +4822,7 @@ window.WINE_DATA =[
             "name": "Château Montrose",
             "price": "$7,380",
             "section": "Saint-Estèphe",
-            "note": "Dried blackberry, cedar and tobacco. The powerful 1989 vintage highlights Montrose's reputation for structure, longevity and classic Saint-Estèphe character."
+            "note": "Dried blackberry, cedar and tobacco. The powerful 1989 remains a benchmark Montrose, combining mature complexity with the structure and extraordinary longevity of classic Saint-Estèphe."
           },
           {
             "v": "2015",
@@ -4810,14 +4855,14 @@ window.WINE_DATA =[
             "name": "Château Talbot",
             "price": "$2,000",
             "section": "Saint-Julien",
-            "note": "Blackcurrant, cedar and tobacco leaf. A benchmark Talbot vintage combining generous fruit with the estate's characteristic refinement."
+            "note": "Blackberry, violet and cedar. A benchmark Talbot vintage combining generous fruit with the estate's characteristic refinement."
           },
           {
             "v": "2017",
             "name": "Château Talbot",
             "price": "$2,000",
             "section": "Saint-Julien",
-            "note": "Redcurrant, cedar and tobacco leaf. A cooler vintage that emphasises Talbot's traditional elegance and balance."
+            "note": "Redcurrant, cedar and dried herbs. A cooler vintage that emphasises Talbot's traditional elegance and balance."
           }
         ]
       },
@@ -4829,14 +4874,14 @@ window.WINE_DATA =[
             "name": "Château L'Evangile",
             "price": "$3,080",
             "section": "Pomerol",
-            "note": "Black plum, violet and truffle. Even in a challenging year, L'Evangile retains the richness and texture that define great Pomerol."
+            "note": "Black plum, violet and cocoa. Even in a challenging year, L'Evangile retains the richness and texture that define great Pomerol."
           },
           {
             "v": "2000",
             "name": "Château La Fleur-Pétrus",
             "price": "$7,980",
             "section": "Pomerol",
-            "note": "Black plum, violet and truffle. The millennium vintage combines Pomerol richness with remarkable freshness and polish."
+            "note": "Black cherry, violet and cedar. The millennium vintage combines Pomerol richness with remarkable freshness, polish and developing tertiary complexity."
           },
           {
             "v": "2013",
@@ -4864,7 +4909,7 @@ window.WINE_DATA =[
             "name": "Château Trotanoy",
             "price": "$5,480",
             "section": "Pomerol",
-            "note": "Black plum, iron and violet. Trotanoy is renowned for power and depth, qualities evident even in a more classical vintage."
+            "note": "Black plum, iron and violet. The classical 2008 vintage retains Trotanoy’s characteristic power and depth while showing unusual freshness and aromatic clarity."
           },
           {
             "v": "1988",
@@ -4878,7 +4923,7 @@ window.WINE_DATA =[
             "name": "Vieux Château Certan",
             "price": "$4,280",
             "section": "Pomerol",
-            "note": "Black cherry, iris and graphite. Cabernet Franc contributes aromatic lift to this benchmark Pomerol estate."
+            "note": "Black cherry, iris and graphite. The Merlot-led 2012 gains aromatic lift and complexity from Cabernet Franc, expressing the pedigree and balance of the Pomerol plateau."
           }
         ]
       },
@@ -4890,7 +4935,7 @@ window.WINE_DATA =[
             "name": "Pétrus",
             "price": "$89,880",
             "section": "Petrus",
-            "note": "Black plum, violet and truffle. Dense Merlot fruit is matched by velvety power, mineral depth and an exceptionally persistent finish."
+            "note": "Black plum, cocoa and truffle. Dense Merlot fruit is matched by velvety power, mineral depth and an exceptionally persistent finish."
           }
         ]
       },
@@ -4916,7 +4961,7 @@ window.WINE_DATA =[
             "name": "Château Cheval Blanc",
             "price": "$23,880",
             "section": "Saint-Émilion",
-            "note": "Black cherry, rose petal and graphite. The estate's high proportion of Cabernet Franc gives exceptional perfume and finesse within the monumental 2000 vintage."
+            "note": "Dried mulberry, violet and liquorice. The estate's high proportion of Cabernet Franc gives exceptional perfume and finesse within the monumental 2000 vintage."
           },
           {
             "v": "2016",
@@ -4944,7 +4989,7 @@ window.WINE_DATA =[
             "name": "Château Pavie",
             "price": "$10,800",
             "section": "Saint-Émilion",
-            "note": "Blackberry, liquorice and graphite. The powerful 2009 vintage suits Pavie's naturally concentrated limestone-slope fruit."
+            "note": "Blackberry, blueberry and crushed stone. The powerful 2009 vintage suits Pavie's naturally concentrated limestone-slope fruit."
           },
           {
             "v": "2014",
@@ -4963,7 +5008,7 @@ window.WINE_DATA =[
             "name": "Château Angélus, 1er Grand Cru Classé B",
             "price": "$9,280",
             "section": "Chateau Angelus",
-            "note": "Dried blackcurrant, cedar and graphite. Structured and restrained, with the cool firmness typical of 1995."
+            "note": "Black cherry, black olive and truffle. The structured 1995 captures an earlier, more classical Angélus style, with concentrated Merlot and Cabernet Franc fruit framed by persistent tannins."
           },
           {
             "v": "2009",
@@ -5022,7 +5067,7 @@ window.WINE_DATA =[
             "name": "Charmes-Chambertin Grand Cru, Domaine Castagnier",
             "price": "$5,280",
             "section": "Gevrey-Chambertin",
-            "note": "Black cherry, rose petal and baking spice. Castagnier's old-vine Grand Cru fruit delivers the depth and generosity associated with Charmes-Chambertin."
+            "note": "Black cherry, rose petal and clove. Castagnier's old-vine Grand Cru fruit delivers the depth and generosity associated with Charmes-Chambertin."
           },
           {
             "v": "2018",
@@ -5088,7 +5133,7 @@ window.WINE_DATA =[
             "name": "Musigny Grand Cru Cuvée Vieilles Vignes, Domaine Comte Georges de Vogüé",
             "price": "$16,750",
             "section": "Chambolle-Musigny",
-            "note": "Raspberry, dried rose and white pepper. Domaine Comte Georges de Vogüé is regarded as the reference producer of Musigny, combining profound depth with exceptional refinement."
+            "note": "Raspberry, dried rose and incense. Domaine Comte Georges de Vogüé is regarded as the reference producer of Musigny, combining profound depth with exceptional refinement."
           },
           {
             "v": "1990",
@@ -5119,28 +5164,28 @@ window.WINE_DATA =[
             "name": "Vosne Romanée, Aux ormes, Jaques Cacheaux",
             "price": "$1,780",
             "section": "Vosne-Romanée",
-            "note": "Black cherry, violet and cardamom. Jacques Cacheux's expressive style highlights the spice and perfume characteristic of Vosne-Romanée."
+            "note": "Black cherry, clove and forest floor. Jacques Cacheux's expressive style highlights the spice and perfume characteristic of Vosne-Romanée."
           },
           {
             "v": "2021",
             "name": "Vosne Romanée, Les Violettes, Christian Clerget",
             "price": "$2,480",
             "section": "Vosne-Romanée",
-            "note": "Black cherry, violet and cardamom. Les Violettes combines the fragrance of Vosne-Romanée with the freshness of a cooler hillside position."
+            "note": "Red cherry, peony and cinnamon. Les Violettes combines the fragrance of Vosne-Romanée with the freshness of a cooler hillside position."
           },
           {
             "v": "2022",
             "name": "Vosne-Romanée, Mongeard-Mugneret",
             "price": "$2,580",
             "section": "Vosne-Romanée",
-            "note": "Black cherry, violet and cardamom. Mongeard-Mugneret is known for generous fruit and classical Vosne-Romanée perfume."
+            "note": "Black cherry, rose petal and sandalwood. Mongeard-Mugneret is known for generous fruit and classical Vosne-Romanée perfume."
           },
           {
             "v": "2020",
             "name": "Vosne-Romanée, Clos de Réas Monopole, Domaine Michel Gros",
             "price": "$4,560",
             "section": "Vosne-Romanée",
-            "note": "Black cherry, violet and cardamom. Clos de Réas has been owned by the Michel Gros family for generations and remains one of Vosne-Romanée's historic monopoles."
+            "note": "Redcurrant, rose petal and spice. Clos de Réas has been owned by the Michel Gros family for generations and remains one of Vosne-Romanée's historic monopoles."
           },
           {
             "v": "2022",
@@ -5154,14 +5199,14 @@ window.WINE_DATA =[
             "name": "Vosne Romanée, Emmanuel Rouget",
             "price": "$7,880",
             "section": "Vosne-Romanée",
-            "note": "Black cherry, violet and cardamom. Emmanuel Rouget remains one of Burgundy's most sought-after producers, celebrated for wines of intensity and perfume."
+            "note": "Black cherry, rose petal and five spice. Emmanuel Rouget remains one of Burgundy's most sought-after producers, celebrated for wines of intensity and perfume."
           },
           {
             "v": "2019",
             "name": "Échézeaux Grand Cru, Emmanuel Rouget",
             "price": "$18,350",
             "section": "Vosne-Romanée",
-            "note": "Black cherry, violet and cardamom. Rouget's Échézeaux combines Grand Cru concentration with remarkable aromatic purity and finesse."
+            "note": "Wild strawberry, incense and sandalwood. Rouget's Échézeaux combines Grand Cru concentration with remarkable aromatic purity and finesse."
           }
         ]
       },
@@ -5180,7 +5225,7 @@ window.WINE_DATA =[
             "name": "Nuits-Saint-Georges Les Chaliots, Domaine Michel Gros",
             "price": "$2,750",
             "section": "Nuits-Saint-Georges",
-            "note": "Black plum, forest floor and black pepper. Les Chaliots expresses the darker fruit and structure characteristic of Nuits-Saint-Georges."
+            "note": "Black plum, clove and forest floor. Les Chaliots expresses the darker fruit and structure characteristic of Nuits-Saint-Georges."
           },
           {
             "v": "2020",
@@ -5284,7 +5329,7 @@ window.WINE_DATA =[
             "name": "Volnay 1er Cru Les Champans, Domaine de la Commaraine",
             "price": "$2,980",
             "section": "Volnay",
-            "note": "Redcurrant, rose petal and woodland earth. Les Champans is one of Volnay's most highly regarded Premier Crus, balancing perfume with structure."
+            "note": "Wild strawberry, rose petal and sandalwood. Les Champans is one of Volnay's most highly regarded Premier Crus, balancing perfume with structure."
           }
         ]
       },
@@ -5315,7 +5360,7 @@ window.WINE_DATA =[
             "name": "Morgon, Cuvée Camille, Domaine Marcel Lapierre",
             "price": "$1,480",
             "section": "Beaujolais",
-            "note": "Red cherry, rose petal and forest floor. Produced from old vines and low-intervention winemaking, Cuvée Camille reflects the benchmark style of Domaine Marcel Lapierre."
+            "note": "Red cherry, violet and wet stone. Produced from old vines and low-intervention winemaking, Cuvée Camille reflects the benchmark style of Domaine Marcel Lapierre."
           }
         ]
       },
@@ -5327,7 +5372,7 @@ window.WINE_DATA =[
             "name": "Bourgueil Cuvée Prestige, Lamé Delisle Boucard",
             "price": "$2,340",
             "section": "Loire Valley",
-            "note": "Dark cherry, black plum and black pepper. Shaped by depth without excess sweetness or overt heaviness."
+            "note": "Redcurrant, tobacco leaf and forest floor. Mature Cabernet Franc from Bourgueil combines developed savoury complexity with remarkable freshness."
           }
         ]
       },
@@ -5346,7 +5391,7 @@ window.WINE_DATA =[
             "name": "Crozes-Hermitage Domaine de Thalabert, Paul Jaboulet Aîné",
             "price": "$1,380",
             "section": "Northern Rhone",
-            "note": "Blackberry, violet and olive. Balances a supple opening followed by a firmer, more savoury close."
+            "note": "Blackberry, black pepper and violet. The historic Thalabert vineyard produces one of Crozes-Hermitage's benchmark expressions of Syrah."
           }
         ]
       },
@@ -5358,7 +5403,7 @@ window.WINE_DATA =[
             "name": "Ermitage Le Pavillon, M. Chapoutier",
             "price": "$3,760",
             "section": "M. Chapoutier",
-            "note": "Black plum, graphite and black spice. Develops through fine tannins, fresh acidity and a savoury finish."
+            "note": "Black plum, graphite and black spice. Sourced from the granite slopes of Les Bessards, Le Pavillon is one of Hermitage's most site-expressive wines."
           }
         ]
       },
@@ -5370,7 +5415,7 @@ window.WINE_DATA =[
             "name": "Ermitage Ex-Voto, E. Guigal",
             "price": "$6,380",
             "section": "E. Guigal",
-            "note": "Dark plum, meat and olive. Shows fine tannins, fresh acidity and a savoury finish."
+            "note": "Dark plum, smoked meat and black olive. Produced only in exceptional vintages, Guigal's flagship Hermitage draws on the celebrated vineyards of Bessards, Greffieux, Murands and L'Hermite."
           }
         ]
       },
@@ -5401,21 +5446,21 @@ window.WINE_DATA =[
             "name": "Château de Beaucastel, Châteauneuf-du-Pape",
             "price": "$2,380",
             "section": "Chateau de Beaucastel",
-            "note": "Black cherry, dried herbs and black pepper. A challenging year expressed through restraint, savoury nuance and delicate fruit."
+            "note": "Black cherry, dried herbs and black pepper. A late, challenging growing season produced small quantities and a more restrained, northern-style Beaucastel with freshness and savoury definition."
           },
           {
             "v": "2018",
             "name": "Château de Beaucastel, Châteauneuf-du-Pape",
             "price": "$2,380",
             "section": "Chateau de Beaucastel",
-            "note": "Black cherry, dried herbs and black pepper. Richly fruited and textural, with ripe tannins and modern precision."
+            "note": "Blackberry, garrigue and liquorice. A warm, generous vintage produced a richer, more opulent expression of Beaucastel with ample fruit and concentration."
           },
           {
             "v": "2012",
             "name": "Château de Beaucastel \"Hommage à Jacques Perrin\", Châteauneuf-du-Pape",
             "price": "$8,380",
             "section": "Chateau de Beaucastel",
-            "note": "Black cherry, dried herbs and black pepper. Supple and even-tempered, with moderate weight and polished structure."
+            "note": "Blackberry, smoked meat and black olive. The flagship cuvée of Beaucastel is Mourvèdre-dominant, delivering remarkable depth, complexity and ageing potential."
           }
         ]
       }
@@ -5457,7 +5502,7 @@ window.WINE_DATA =[
             "name": "La Rioja Alta, Gran Reserva 904 Selection especial",
             "price": "$2,080",
             "section": "Rioja",
-            "note": "Red cherry, dried plum and leather. Built around depth without excess sweetness or overt heaviness."
+            "note": "Red cherry, tobacco leaf and vanilla. Matured for four years in American oak, Gran Reserva 904 is one of Rioja's benchmark traditional wines, combining extended ageing with remarkable freshness and longevity."
           }
         ]
       },
@@ -5469,14 +5514,14 @@ window.WINE_DATA =[
             "name": "Ferrer Bobet, 'Seleccio Especial Vinyes Velles'",
             "price": "$2,580",
             "section": "Priorat",
-            "note": "Blackberry, black pepper and forest floor. Built around a composed mid-palate and a persistent, savoury finish."
+            "note": "Blackberry, liquorice and graphite. Sourced from old vines rooted in Priorat's llicorella slate soils, Selecció Especial combines concentrated fruit with the region's distinctive mineral character."
           },
           {
             "v": "2009",
             "name": "Mas Doix, 'Doix'",
             "price": "$2,820",
             "section": "Priorat",
-            "note": "Red plum, blackberry and earth. Shaped by a composed mid-palate and a persistent, savoury finish."
+            "note": "Black cherry, liquorice and rosemary. Drawn from old Garnacha and Cariñena vineyards, Doix expresses Priorat's rugged landscape through remarkable concentration and Mediterranean character."
           }
         ]
       },
@@ -5488,14 +5533,14 @@ window.WINE_DATA =[
             "name": "Dominio de Pingus, 'Flor de Pingus'",
             "price": "$4,240",
             "section": "Ribera del Duero",
-            "note": "Dark cherry, violet and dried herbs. Finishes with tannic definition that carries the fruit rather than obscuring it."
+            "note": "Dark cherry, violet and cedar. Produced from old-vine Tempranillo and shaped by Peter Sisseck's meticulous vineyard selection, Flor de Pingus delivers remarkable concentration while retaining freshness and precision."
           },
           {
             "v": "2010",
             "name": "Vega Sicilia, 'Unico'",
             "price": "$7,980",
             "section": "Ribera del Duero",
-            "note": "Black plum, coconut and cedar. Defined by tannic definition that carries the fruit rather than obscuring it."
+            "note": "Black plum, cedar and tobacco leaf. Aged for over a decade before release, Único is Vega Sicilia's flagship wine, combining Ribera del Duero power with exceptional complexity and refinement."
           }
         ]
       },
@@ -5507,7 +5552,7 @@ window.WINE_DATA =[
             "name": "Castell d'Encus, 'Acusp' (Pinot Noir)",
             "price": "$1,890",
             "section": "Costers del Segre",
-            "note": "Redcurrant, orange peel and mushroom. Built around depth without excess sweetness or overt heaviness."
+            "note": "Wild strawberry, rose petal and flint. High-altitude Pinot Noir and partial fermentation in historic stone vats give Acusp unusual freshness, delicacy and mineral tension."
           }
         ]
       },
@@ -5519,14 +5564,14 @@ window.WINE_DATA =[
             "name": "Clos d'Agon 'Valmaña' (Merlot, Syrah, Cabernet Sauvignon)",
             "price": "$1,450",
             "section": "Catalunya",
-            "note": "Grapefruit, blackcurrant leaf and fresh herbs. Clear acidity keeps the fruit precise and the profile well defined."
+            "note": "Blackcurrant, leather and liquorice. Built around Merlot and Syrah, mature Valmaña combines Mediterranean ripeness with the savoury development of extended bottle ageing."
           },
           {
             "v": "2000",
             "name": "Clos d'Agon 'Clos d'Agon Tinto' (Cabernet Franc, Syrah, Petit Verdot, Cabernet Sauvignon)",
             "price": "$1,980",
             "section": "Catalunya",
-            "note": "Grapefruit, blackcurrant leaf and fresh herbs. Clear acidity keeps the fruit precise and the profile well defined."
+            "note": "Cassis, tobacco and Mediterranean herbs. The flagship red of Clos d'Agon is selected from the estate's best plots, combining Bordeaux varieties with Syrah in a distinctly coastal Catalan style."
           }
         ]
       },
@@ -5538,7 +5583,7 @@ window.WINE_DATA =[
             "name": "Dominio Do Bibei, 'Lacima' (Mencia)",
             "price": "$1,630",
             "section": "Ribeira Sacra",
-            "note": "Cassis, plum and dried herbs. Balances concentration kept in proportion by structural freshness."
+            "note": "Red cherry, violet and wet stone. Mencía from the steep Val do Bibei vineyards gives Lacima a fragrant, mineral expression of Ribeira Sacra with remarkable depth."
           }
         ]
       },
@@ -5550,7 +5595,7 @@ window.WINE_DATA =[
             "name": "Bodega Otazu, 'Reserva Clásico' (Tempranillo)",
             "price": "$880",
             "section": "Navarra",
-            "note": "Blackberry, leather and dill. Notable for a supple opening followed by a firmer, more savoury close."
+            "note": "Blackberry, plum and sweet spice. A smooth and approachable Navarra red that balances ripe fruit with gentle oak influence."
           }
         ]
       },
@@ -5562,7 +5607,7 @@ window.WINE_DATA =[
             "name": "Bodegas Hispano Suizas, 'Bassus Premium' (Bobal, Cabernets, Merlot, Syrah)",
             "price": "$1,010",
             "section": "Valencia",
-            "note": "Dark plum, meat and olive. Fine tannins and fresh acidity keep the fruit balanced and clearly defined."
+            "note": "Black plum, coffee and dark chocolate. Bassus combines local Bobal with international varieties, using oak fermentation to create a rich, modern expression of Utiel-Requena."
           }
         ]
       }
@@ -5594,105 +5639,105 @@ window.WINE_DATA =[
             "name": "Flametree S.R.S. Wilyabrup, Margaret River, Australia",
             "price": "$1,320",
             "section": "Cabernet Sauvignon",
-            "note": "Cassis, bay leaf and graphite. S.R.S. is Flametree’s flagship Cabernet-led blend, drawn from selected Wilyabrup fruit for depth and precision."
+            "note": "Blackcurrant, redcurrant and dark chocolate. S.R.S. is Flametree’s flagship Cabernet Sauvignon, sourced from Wilyabrup, Margaret River’s benchmark subregion for the variety."
           },
           {
             "v": "2006",
             "name": "Parker Estate Terra Rossa, Coonawarra, Australia",
             "price": "$1,970",
             "section": "Cabernet Sauvignon",
-            "note": "Blackcurrant, cedar and tobacco. Estate-grown fruit from Coonawarra’s terra rossa soils gives a classically structured Cabernet with regional depth and definition."
+            "note": "Blackcurrant, blackberry and cedar. Sourced from Parker Estate’s Abbey Vineyard, this powerful 2006 demonstrates the concentration and longevity associated with Coonawarra Cabernet."
           },
           {
             "v": "2019",
             "name": "Vasse Felix Tom Cullity Cabernet Sauvignon Malbec, Margaret River, Australia",
             "price": "$2,380",
             "section": "Cabernet Sauvignon",
-            "note": "Blackcurrant, violet and cocoa. Named after the founder of Margaret River’s first vineyard, Tom Cullity combines Cabernet Sauvignon with Malbec for layered aromatic complexity and longevity."
+            "note": "Blackcurrant, violet and cedar. Descended from the estate’s original Cabernet and Malbec vines, Tom Cullity represents the pinnacle of Margaret River’s founding wine estate."
           },
           {
             "v": "2016",
             "name": "Wynns, Coonawarra, Australia",
             "price": "$1,030",
             "section": "Cabernet Sauvignon",
-            "note": "Cassis, mint and cedar. Wynns is a benchmark Coonawarra producer, with Cabernet shaped by the estate’s extensive terra rossa vineyards."
+            "note": "Blackcurrant, bay leaf and graphite. First produced in 1954, Wynns Black Label remains a benchmark expression of Coonawarra Cabernet Sauvignon."
           },
           {
             "v": "2019",
             "name": "Almaviva, Puente Alto, Maipo Valley, Chile",
             "price": "$3,680",
             "section": "Cabernet Sauvignon",
-            "note": "Blackcurrant, graphite and violet. The partnership between Concha y Toro and Baron Philippe de Rothschild combines Puente Alto fruit with Bordeaux-inspired blending."
+            "note": "Blackcurrant, graphite and violet. Created by Concha y Toro and Baron Philippe de Rothschild, Almaviva brings Bordeaux blending expertise to the distinctive terroir of Puente Alto."
           },
           {
             "v": "2019",
             "name": "Don Melchor Puente Alto, Maipo Valley, Chile",
             "price": "$2,880",
             "section": "Cabernet Sauvignon",
-            "note": "Cassis, cedar and graphite. Don Melchor is parcel-selected from the Puente Alto vineyard, where the Cabernet achieves concentration with freshness."
+            "note": "Blackcurrant, sweet tobacco and cedar. Don Melchor is assembled through detailed parcel selection within its historic Puente Alto vineyard, expressing the precision of one of Chile’s benchmark Cabernets."
           },
           {
             "v": "2017",
             "name": "Ferrari-Carano Cabernet Sauvignon, Alexander Valley, USA",
             "price": "$1,180",
             "section": "Cabernet Sauvignon",
-            "note": "Black cherry, cassis and cocoa. Fruit from Alexander Valley gives this Cabernet generous ripeness while cooler evening conditions help retain freshness."
+            "note": "Black cherry, cassis and cedar. Ferrari-Carano’s 2017 Cabernet offers a generous, polished expression of Sonoma fruit, with ripe flavour balanced by savoury detail."
           },
           {
             "v": "2022",
             "name": "Far Niente Estate Bottled Cabernet Sauvignon, Oakville, Napa Valley, USA",
             "price": "$3,880",
             "section": "Cabernet Sauvignon",
-            "note": "Blackberry, cassis and mocha. Estate fruit from Oakville underpins Far Niente’s polished, concentrated style of Napa Valley Cabernet."
+            "note": "Boysenberry, black olive and baking spice. From Far Niente’s historic western Oakville vineyard, this Cabernet captures the richness and finesse associated with the appellation."
           },
           {
             "v": "2021",
             "name": "Harlan Estate, Oakville, Napa Valley, USA",
             "price": "$25,850",
             "section": "Cabernet Sauvignon",
-            "note": "Blackcurrant, violet and cedar. Harlan Estate blends hillside parcels from its western Oakville property into a deeply concentrated Cabernet-based wine."
+            "note": "Blackcurrant, violet and tobacco. Conceived as a California “First Growth”, Harlan Estate brings remarkable perfume and energy to its western Oakville hillside vineyards."
           },
           {
             "v": "2020",
             "name": "Orin Swift Papillon, Napa Valley, USA",
             "price": "$2,380",
             "section": "Cabernet Sauvignon",
-            "note": "Blackberry, plum and dark chocolate. Papillon is a Cabernet-led blend of Bordeaux varieties assembled from vineyards across Napa Valley."
+            "note": "Blackberry, blackcurrant and anise. Papillon unites all five principal Bordeaux varieties using fruit selected from vineyards across Napa Valley."
           },
           {
             "v": "2013",
             "name": "Opus One, Robert Mondavi, Oakville, USA",
             "price": "$7,880",
             "section": "Cabernet Sauvignon",
-            "note": "Cassis, violet and graphite. The Mondavi-Rothschild partnership combines Napa Valley fruit with a Bordeaux-inspired approach to blending and maturation."
+            "note": "Cassis, blackberry and rose. Founded by Robert Mondavi and Baron Philippe de Rothschild, Opus One joins Napa Valley fruit with the winemaking traditions of Bordeaux."
           },
           {
             "v": "2017",
             "name": "Shafer, Hillside Select, Stags Leap, Napa Valley, USA",
             "price": "$5,580",
             "section": "Cabernet Sauvignon",
-            "note": "Blackberry, cassis and mocha. Hillside Select is Shafer’s flagship Cabernet Sauvignon, sourced from estate hillside blocks in Stags Leap District."
+            "note": "Blackberry, cassis and cocoa. Hillside Select is Shafer’s flagship Cabernet Sauvignon, sourced from rugged estate blocks in Stags Leap District."
           },
           {
             "v": "2012",
             "name": "Screaming Eagle, Second Flight, Napa Valley, USA",
             "price": "$19,880",
             "section": "Cabernet Sauvignon",
-            "note": "Black cherry, cassis and cedar. Second Flight is produced from the Screaming Eagle estate and places greater emphasis on Merlot within its Cabernet-based blend."
+            "note": "Black cherry, violet and mocha. With almost equal parts Cabernet Sauvignon and Merlot, Second Flight presents the Screaming Eagle estate in a softer, more immediately approachable form."
           },
           {
             "v": "2019",
             "name": "The Mascot, Napa Valley, USA",
             "price": "$3,820",
             "section": "Cabernet Sauvignon",
-            "note": "Blackberry, plum and cedar. The Mascot is made from younger-vine fruit drawn from the Harlan family’s Napa Valley estates."
+            "note": "Blackberry, plum and cedar. The Mascot draws on younger vines from Harlan Estate, BOND and Promontory, offering a distinctive view of their Napa Valley hillside vineyards."
           },
           {
             "v": "2022",
             "name": "De Toren, Book 17 XVII, Stellenbosch, South Africa",
             "price": "$6,980",
             "section": "Cabernet Sauvignon",
-            "note": "Blackcurrant, graphite and cocoa. Book XVII is De Toren’s Cabernet Sauvignon-led flagship, assembled from rigorously selected Stellenbosch parcels."
+            "note": "Cassis, fig and nutmeg. Produced from only a handful of barrels, Book XVII is De Toren’s limited-production icon blend of Cabernet Sauvignon, Cabernet Franc and Malbec."
           }
         ]
       },
@@ -5704,7 +5749,7 @@ window.WINE_DATA =[
             "name": "Ridge Vineyards, Geyserville, Alexander Valley, USA",
             "price": "$1,680",
             "section": "Zinfandel",
-            "note": "Blackberry, plum and black pepper. This historic old-vine field blend remains one of California's most distinctive vineyard-designated wines."
+            "note": "Blackberry, plum and black pepper. Drawn from Ridge's historic Geyserville vineyard, this old-vine field blend combines Zinfandel with Carignane, Petite Sirah and Alicante Bouschet for unusual depth and complexity."
           }
         ]
       },
@@ -5716,7 +5761,7 @@ window.WINE_DATA =[
             "name": "Bodegas Caro, \"Caro\" , Mendoza, Argentina",
             "price": "$1,680",
             "section": "Malbec",
-            "note": "Red cherry, blackberry and dried flowers. Shows depth without excess sweetness or overt heaviness."
+            "note": "Red cherry, blackberry and violet. Created by Catena and Domaines Barons de Rothschild, Caro combines Mendoza Malbec fruit with the structure and refinement of a Bordeaux-inspired blend."
           }
         ]
       },
@@ -5728,14 +5773,14 @@ window.WINE_DATA =[
             "name": "La Muse Verite, Sonoma county, USA",
             "price": "$7,910",
             "section": "Merlot",
-            "note": "Dark cherry, black plum and black pepper. Defined by a composed mid-palate and a persistent, savoury finish."
+            "note": "Dark cherry, black plum and cocoa. La Muse is Vérité's Merlot-led flagship, bringing Pomerol-inspired richness and structure to selected Sonoma County vineyards."
           },
           {
             "v": "2019",
             "name": "Pahlmeyer, \"Jayson\", Napa Valley, USA",
             "price": "$1,780",
             "section": "Merlot",
-            "note": "Cassis, blackberry and cedar. The palate brings a supple opening followed by a firmer, more savoury close."
+            "note": "Black plum, black cherry and cocoa. Sourced from leading Napa Valley vineyards, Jayson balances generous fruit with the freshness and structure that define the Pahlmeyer style."
           }
         ]
       },
@@ -5747,28 +5792,28 @@ window.WINE_DATA =[
             "name": "Freeman Vineyard and Winery, Russian River Valley, USA",
             "price": "$1,800",
             "section": "Pinot Noir",
-            "note": "Sour cherry, bay leaf and iron. The palate brings a supple opening followed by a firmer, more savoury close."
+            "note": "Sour cherry, rose petal and forest floor. Freeman's restrained winemaking and cool Russian River Valley vineyards produce a Pinot Noir of finesse, freshness and aromatic purity."
           },
           {
             "v": "2010",
             "name": "Moss Wood, Mornington Peninsula, Australia",
             "price": "$1,210",
             "section": "Pinot Noir",
-            "note": "Red plum, blackberry and earth. Defined by depth without excess sweetness or overt heaviness."
+            "note": "Red cherry, dried herbs and forest floor. Produced from the estate's Mornington Peninsula vineyard, this Pinot Noir combines cool-climate freshness with surprising depth and structure."
           },
           {
             "v": "2011",
             "name": "Moorilla, The Muse Series, Tasmania, Australia",
             "price": "$1,240",
             "section": "Pinot Noir",
-            "note": "Red plum, blackberry and earth. On the palate, a supple opening followed by a firmer, more savoury close."
+            "note": "Red cherry, wild strawberry and spice. Grown in Tasmania's cool climate, The Muse Series emphasises fragrance, freshness and finely detailed Pinot Noir character."
           },
           {
             "v": "2021",
             "name": "Te Wahi, Cloudy Bay, Central Otago, New Zealand",
             "price": "$1,588",
             "section": "Pinot Noir",
-            "note": "Dark cherry, violet and dried herbs. Shaped by a composed mid-palate and a persistent, savoury finish."
+            "note": "Dark cherry, violet and thyme. Sourced from Central Otago, Te Wahi offers a more structured and savoury expression than Cloudy Bay's Marlborough Pinot Noir."
           }
         ]
       },
@@ -5777,59 +5822,59 @@ window.WINE_DATA =[
         "items": [
           {
             "v": "2023",
-            "name": "Paxton AAA, McLaren Vale, Australia",
+            "name": "Paxton AAA Shiraz Grenache, McLaren Vale, Australia",
             "price": "$720",
             "section": "Shiraz",
-            "note": "Black plum, violet and tobacco. Balances layered fruit supported by textural, well-judged tannins."
+            "note": "Red cherry, dried herbs and cacao nib. Certified organic and biodynamic, AAA blends Shiraz with Grenache and Mataro from Paxton's Gateway and Jones Block vineyards."
           },
           {
             "v": "2017",
             "name": "Glaetzer Bishop, Barossa Valley, Australia",
             "price": "$980",
             "section": "Shiraz",
-            "note": "Dark cherry, violet and dried herbs. Defined by clear fruit framed by measured tannin and earthy detail."
+            "note": "Black cherry, blackcurrant and dried spice. Old-vine Shiraz from the Ebenezer subregion gives Bishop a concentrated yet approachable expression of northern Barossa."
           },
           {
             "v": "2022",
             "name": "Henschke, Henry's Seven, Eden Valley, Australia",
             "price": "$1,010",
             "section": "Shiraz",
-            "note": "Sour cherry, bay leaf and iron. Built around clear fruit framed by measured tannin and earthy detail."
+            "note": "Raspberry, plum and black pepper. This Rhône-inspired blend of Shiraz, Grenache, Mataro and Viognier pays tribute to Barossa pioneer Henry Evans and his original seven-acre vineyard."
           },
           {
             "v": "2010",
-            "name": "Hewitson The Mad Hatter, Barossa Valley, Australia",
+            "name": "Hewitson The Mad Hatter, McLaren Vale, Australia",
             "price": "$1,165",
             "section": "Shiraz",
-            "note": "Black plum, violet and tobacco. Built around depth without excess sweetness or overt heaviness."
+            "note": "Cassis, blackberry and white pepper. Produced from a single Blewitt Springs vineyard, The Mad Hatter combines concentrated McLaren Vale fruit with extended maturation in new French oak."
           },
           {
             "v": "2012",
             "name": "Yalumba The Signature, Barossa Valley, Australia",
             "price": "$1,215",
             "section": "Shiraz",
-            "note": "Sour cherry, bay leaf and iron. Notable for fine tannins, fresh acidity and a savoury finish."
+            "note": "Black cherry, blackberry and cedar. Yalumba's historic Cabernet Sauvignon and Shiraz blend honours a different individual in each vintage who has contributed to the estate's traditions."
           },
           {
             "v": "2009",
-            "name": "Yalumba The Octavius Old Vine, Barossa Valley, Australia",
+            "name": "Yalumba The Octavius Old Vine Shiraz, Barossa Valley, Australia",
             "price": "$2,290",
             "section": "Shiraz",
-            "note": "Black plum, violet and tobacco. Textural, well-judged tannins support the layered fruit."
+            "note": "Blackberry, dark chocolate and liquorice. Drawn from old Barossa and Eden Valley vines, The Octavius is matured partly in Yalumba's small oak octaves, which inspired the cuvée's name."
           },
           {
             "v": "2008",
             "name": "Giaconda, Warner Vineyard, Victoria, Australia",
             "price": "$2,935",
             "section": "Shiraz",
-            "note": "Blackberry, black pepper and forest floor. On the palate, depth without excess sweetness or overt heaviness."
+            "note": "Raspberry, hickory smoke and espresso. Warner Vineyard gives Giaconda a distinctive Beechworth Shiraz of savoury complexity, freshness and depth without excessive weight."
           },
           {
             "v": "2019",
             "name": "Sine Qua Non \"Distenta I\" Syrah, Santa Barbara, California",
             "price": "$7,380",
             "section": "Shiraz",
-            "note": "Black plum, graphite and black spice. Develops through concentration kept in proportion by structural freshness."
+            "note": "Morello cherry, red rose and star anise. Blended from four estate vineyards and fermented with 33% whole clusters, Distenta I is a powerful yet unusually fragrant expression of California Syrah."
           }
         ]
       },
@@ -5841,56 +5886,56 @@ window.WINE_DATA =[
             "name": "Penfolds Bin 407 Cabernet Sauvignon, South Australia",
             "price": "$1,870",
             "section": "Penfold's Selection",
-            "note": "Grapefruit, blackcurrant leaf and fresh herbs. Clear acidity keeps the fruit precise and the profile well defined."
+            "note": "Blackcurrant, graphite and wild herbs. Inspired by Bin 707, Bin 407 combines Cabernet Sauvignon from five South Australian regions in Penfolds’ multi-regional house style."
           },
           {
             "v": "2019",
-            "name": "Penfolds Bin 600 Cabernet Shiraz, Napa Valley",
+            "name": "Penfolds Bin 600 Shiraz Cabernet, California",
             "price": "$1,880",
             "section": "Penfold's Selection",
-            "note": "Cassis, blackberry and cedar. The 2019 vintage marries concentrated fruit with vivid freshness and fine structural definition."
+            "note": "Blackberry, lavender and thyme. Bin 600 includes fruit descended from Kalimna and Magill Estate vine cuttings planted in California in 1998, linking the blend directly to Penfolds’ Australian heritage."
           },
           {
             "v": "2020",
-            "name": "Penfolds Bin 600 Cabernet Shiraz, Napa Valley",
+            "name": "Penfolds Bin 600 Shiraz Cabernet, California",
             "price": "$1,880",
             "section": "Penfold's Selection",
-            "note": "Cassis, blackberry and cedar. The 2020 vintage is ripe and energetic, with generous fruit carried by firm acidity and fine tannins."
+            "note": "Cranberry, dark chocolate and cumin. Cabernet Sauvignon provides structure while Shiraz from vines descended from Penfolds’ Australian selections adds generosity through the mid-palate."
           },
           {
             "v": "2022",
             "name": "Penfolds Bin 704 Cabernet Sauvignon, Napa Valley",
             "price": "$2,580",
             "section": "Penfold's Selection",
-            "note": "Grapefruit, blackcurrant leaf and fresh herbs. Clear acidity keeps the fruit precise and the profile well defined."
+            "note": "Blackcurrant, dark chocolate and bay leaf. Named as the reverse image of Australian Bin 407, Bin 704 interprets Napa Valley Cabernet through Penfolds’ house style and French-barrique maturation."
           },
           {
             "v": "2019",
-            "name": "Penfolds Bin 149 Cabernet Sauvignon, Napa Valley",
+            "name": "Penfolds Bin 149 Cabernet Sauvignon, Napa Valley & South Australia",
             "price": "$4,980",
             "section": "Penfold's Selection",
-            "note": "Grapefruit, blackcurrant leaf and fresh herbs. Clear acidity keeps the fruit precise and the profile well defined."
+            "note": "Blackberry, blood orange and savoury spice. Bin 149 unites Napa Valley Cabernet with a component of South Australian Cabernet, creating one of Penfolds’ first deliberately cross-continental wines."
           },
           {
             "v": "2012",
             "name": "Penfolds Grange Shiraz, South Australia",
             "price": "$10,970",
             "section": "Penfold's Selection",
-            "note": "Black plum, graphite and black spice. Built around a composed mid-palate and a persistent, savoury finish."
+            "note": "Blackberry, liquorice and espresso. The 2012 Grange blends Shiraz from Barossa Valley and McLaren Vale with 2% Cabernet Sauvignon, matured entirely in new American oak. Still dense and youthful, with powerful chalky tannins and integrated acidity supporting exceptionally long development."
           },
           {
             "v": "2021",
-            "name": "Penfolds FWT 585 Cabernet Sauvignon, Bordeaux",
+            "name": "Penfolds FWT 585 Cabernet Sauvignon Petit Verdot Merlot, Vin de France",
             "price": "$1,880",
             "section": "Penfold's Selection",
-            "note": "Grapefruit, blackcurrant leaf and fresh herbs. Clear acidity keeps the fruit precise and the profile well defined."
+            "note": "Wild strawberry, cranberry and bouquet garni. This French Winemaking Trial blends Cabernet Sauvignon, Petit Verdot and Merlot from Bordeaux vineyards using Penfolds’ established house approach."
           },
           {
             "v": "2023",
-            "name": "Penfolds CWT 521 Cabernet Marselan, Yunnan & Ningxia, China",
+            "name": "Penfolds CWT 521 Cabernet Sauvignon Marselan, Shangri-La & Ningxia, China",
             "price": "$2,580",
             "section": "Penfold's Selection",
-            "note": "Blackberry, mint and iron. Defined by clear fruit framed by measured tannin and earthy detail."
+            "note": "Blackcurrant, roasted pepper and sweet paprika. Cabernet Sauvignon from high-altitude Shangri-La is blended with Ningxia Marselan, giving Penfolds’ third Chinese Wine Trial its distinctive regional identity."
           }
         ]
       },
@@ -5902,14 +5947,14 @@ window.WINE_DATA =[
             "name": "Bella's Garden Shiraz, Barossa Valley, Australia",
             "price": "$1,340",
             "section": "Two Hands's Selection",
-            "note": "Dark plum, meat and olive. Defined by layered fruit supported by textural, well-judged tannins."
+            "note": "Blueberry, blackberry and black pepper. Bella’s Garden represents Barossa Valley within Two Hands’ regional Garden Series, blending selected Shiraz barrels predominantly from the western ranges."
           },
           {
             "v": "2008",
             "name": "Ares Shiraz, Barossa Valley, Australia",
             "price": "$3,170",
             "section": "Two Hands's Selection",
-            "note": "Blueberry, lavender and meat. Built around a composed mid-palate and a persistent, savoury finish."
+            "note": "Plum, dark chocolate and liquorice. Ares is Two Hands’ flagship Shiraz, assembled from its strongest Barossa parcels to deliver the estate’s most concentrated expression."
           }
         ]
       },
@@ -5921,42 +5966,42 @@ window.WINE_DATA =[
             "name": "Grenache, Dark Blossom, Sine Qua Non, Califoria, USA",
             "price": "$6,180",
             "section": "Indigenous & Curiosities",
-            "note": "Black cherry, dried herbs and black pepper. On the palate, a supple opening followed by a firmer, more savoury close."
+            "note": "Black raspberry, dried flowers and liquorice. Dark Blossom blends Grenache with Syrah, Mourvèdre and a small amount of Roussanne, producing one of Sine Qua Non’s characteristically unconventional Rhône-inspired cuvées."
           },
           {
             "v": "2013",
             "name": "Cabernet Sauvignon, Ao Yun, Yunnan, China",
             "price": "$5,680",
             "section": "Indigenous & Curiosities",
-            "note": "Blackberry, cassis and wild herbs. High-altitude vineyards in Yunnan’s Himalayan foothills give Ao Yun concentration with distinctive mountain freshness."
+            "note": "Blackberry, cassis and mint. The inaugural Ao Yun vintage blends Cabernet Sauvignon with Cabernet Franc from high-altitude vineyards in Yunnan’s Himalayan foothills."
           },
           {
             "v": "2020",
             "name": "Cabernet Sauvignon, Shangri-La Winery, \"Sacred Land Legend\", Yunnan, China",
             "price": "$1,380",
             "section": "Indigenous & Curiosities",
-            "note": "Blackberry, violet and spice. High-altitude vineyards in Shangri-La preserve perfume and freshness within the wine’s concentrated dark fruit."
+            "note": "Blackberry, cedar and coffee. Grown at approximately 2,300 metres in Deqin, Sacred Land Legend blends Cabernet Sauvignon with 5% Cabernet Franc from mature vines near Meili Snow Mountain."
           },
           {
             "v": "2020",
             "name": "Cabernet Sauvignon, Hu Yue, Shandong, China",
             "price": "$3,980",
             "section": "Indigenous & Curiosities",
-            "note": "Black cherry, plum and cedar. Produced by Long Dai in Shandong, Hu Yue offers an accessible expression of the estate’s Bordeaux-influenced approach."
+            "note": "Black cherry, redcurrant and liquorice. Hu Yue brings together five varieties from Long Dai’s terraced Qiu Shan Valley vineyard, offering a more immediately approachable expression of the estate."
           },
           {
             "v": "2022",
             "name": "Syrah, Beyond Time, Ningxia, China",
             "price": "$1,580",
             "section": "Indigenous & Curiosities",
-            "note": "Black cherry, rose petal and cocoa. This single-vineyard Ningxia Syrah combines ripe dark fruit with floral lift and a polished, finely structured palate."
+            "note": "Blackberry, black cherry and black pepper. Beyond Time Monopole is a Ningxia Syrah centred on ripe brambly fruit and savoury varietal spice."
           },
           {
             "v": "2022",
             "name": "Marselan, Beyond Time, Ningxia, China",
             "price": "$1,120",
             "section": "Indigenous & Curiosities",
-            "note": "Sour cherry, bay leaf and iron. Defined by clear fruit framed by measured tannin and earthy detail."
+            "note": "Black cherry, plum and violet. Beyond Time presents Marselan in a modern Ningxia style, combining ripe dark fruit with floral lift and polished tannins."
           }
         ]
       },
@@ -5968,21 +6013,21 @@ window.WINE_DATA =[
             "name": "Cabernet Gernischt, Xige Estate, \"Jade Dove Red\", Ningxia, China",
             "price": "$1,600",
             "section": "Xige Estate's Selection",
-            "note": "Cassis, violet and cedar. Notable for a supple opening followed by a firmer, more savoury close."
+            "note": "Black cherry, plum and cinnamon. Jade Dove is Xige’s single-vineyard expression of Cabernet Gernischt, a variety the estate has made central to its exploration of distinctive Chinese wine."
           },
           {
             "v": "2020",
             "name": "Cabernet Sauvignon, Guanlan Vineyard Cuvée Faucon, Ningxia, China",
             "price": "$1,480",
             "section": "Xige Estate's Selection",
-            "note": "Blackcurrant, plum and dried herbs. This Cabernet-led Ningxia blend uses the region’s marked day-to-night temperature range to retain freshness and definition."
+            "note": "Blackcurrant, plum and dried herbs. Guanlan is Xige Estate’s top-range line, with Cuvée Faucon combining Cabernet Sauvignon, Shiraz and Petit Verdot in its more approachable expression."
           },
           {
             "v": "2017",
             "name": "Cabernet Sauvignon, Guanlan Vineyard Grand Vin, Ningxia, China",
             "price": "$2,580",
             "section": "Xige Estate's Selection",
-            "note": "Blackcurrant, cedar and graphite. Guanlan’s flagship cuvée is selected for greater concentration and structure than Cuvée Faucon."
+            "note": "Blackcurrant, cedar and graphite. Guanlan is Xige Estate’s top-range line, with Grand Vin representing its flagship selection for greater concentration, structure and ageing potential."
           }
         ]
       }
@@ -6000,14 +6045,14 @@ window.WINE_DATA =[
             "name": "Fonseca Ruby Port, Portugal",
             "price": "$680",
             "section": "Port",
-            "note": "Dried fig, orange peel and honey. Balances sweetness held in balance by acidity and persistent aromatic detail."
+            "note": "Cherry, blackcurrant and dark chocolate. Fonseca’s Ruby Port is matured to preserve youthful fruit, offering a direct introduction to the house’s characteristically rich style."
           },
           {
             "v": "2019",
             "name": "Taylor Fladgate Late Bottled Vintage Port, Portugal",
             "price": "$720",
             "section": "Port",
-            "note": "Quince, beeswax and ginger. On the palate, concentrated fruit lifted by citrusy acidity and a precise finish."
+            "note": "Strawberry preserve, cedar and mocha. Matured in wood until ready to drink, Taylor’s LBV combines vintage character with the accessibility of a filtered, immediately approachable Port."
           }
         ]
       },
@@ -6019,21 +6064,21 @@ window.WINE_DATA =[
             "name": "Broadbent 'Sercial' 10 Year Old Madeira",
             "price": "$1,480",
             "section": "Madeira",
-            "note": "Raisin, caramel and hazelnut. Shows sweetness held in balance by acidity and persistent aromatic detail."
+            "note": "Orange peel, dried fruit and almond. The driest of Broadbent’s three ten-year Madeiras, Sercial is shaped by incisive acidity and a long, savoury profile."
           },
           {
             "v": "NV",
             "name": "Broadbent 'Boal' 10 Year Old Madeira",
             "price": "$1,480",
             "section": "Madeira",
-            "note": "Quince, beeswax and ginger. Develops through luscious texture countered by freshness and savoury complexity."
+            "note": "Walnut, toffee and orange peel. Boal occupies the medium-rich position in Broadbent’s range, combining rounded sweetness with Madeira’s naturally firm acidity."
           },
           {
             "v": "NV",
             "name": "Broadbent 'Malmsey' 10 Year Old Madeira",
             "price": "$1,480",
             "section": "Madeira",
-            "note": "Toffee, walnut and orange peel. Develops through sweetness held in balance by acidity and persistent aromatic detail."
+            "note": "Toffee, walnut and orange peel. Malmsey is the richest of Broadbent’s ten-year Madeiras, its honeyed sweetness kept defined by the island wine’s characteristic acidity."
           }
         ]
       },
@@ -6045,21 +6090,21 @@ window.WINE_DATA =[
             "name": "Gonzalez Byass Tio Pepe Fino Muy Seco Sherry",
             "price": "$700",
             "section": "Sherry",
-            "note": "Dried fig, orange peel and honey. On the palate, concentrated fruit lifted by citrusy acidity and a precise finish."
+            "note": "Almond, green olive and green apple. Aged for at least four years under flor, Tío Pepe is a completely dry Fino with pronounced biological-ageing character."
           },
           {
             "v": "1918",
             "name": "Ximenez Spinola PX Muy Viejo Solera",
             "price": "Glass $1918 · Bottle $2,380",
             "section": "Sherry",
-            "note": "Preserved lemon, peach and dried herbs. Defined by luscious texture countered by freshness and savoury complexity."
+            "note": "Raisin, dried fig and dark chocolate. Drawn from Ximénez-Spínola’s historic 1918 solera, this rare Pedro Ximénez combines intense raisined concentration with the complexity of prolonged oxidative ageing."
           },
           {
             "v": "1964",
             "name": "Ximenez-Spinola PX Old Harvest Solera",
             "price": "Glass $1964 · Bottle $1,380",
             "section": "Sherry",
-            "note": "Preserved lemon, peach and dried herbs. The palate brings concentrated fruit lifted by citrusy acidity and a precise finish."
+            "note": "Raisin, toasted almond and caramel. Based on the estate’s 1964 solera, Old Harvest is an unusually oxidative, moderately sweet Pedro Ximénez closer in character to mature Oloroso than conventional PX."
           }
         ]
       },
@@ -6071,7 +6116,7 @@ window.WINE_DATA =[
             "name": "Propritors Vidal Icewine, Jackson-Triggs",
             "price": "$1,560 · 375 ml",
             "section": "Canada",
-            "note": "Apricot, marmalade and saffron. The palate brings luscious texture countered by freshness and savoury complexity."
+            "note": "Apricot, mango and honey. Naturally frozen Vidal grapes give this Niagara Icewine concentrated tropical fruit, with lively acidity preventing the sweetness from becoming heavy."
           }
         ]
       },
@@ -6083,21 +6128,21 @@ window.WINE_DATA =[
             "name": "Château d'Yquem, Sauternes",
             "price": "$7,880 · 375 ml",
             "section": "France",
-            "note": "Dried fig, orange peel and honey. Generous and velvety, with abundant fruit wrapped around substantial structure."
+            "note": "Apricot, pineapple and candied ginger. The monumental 2009 combines exceptionally concentrated botrytised fruit with the acidity and precision that underpin Yquem’s longevity."
           },
           {
             "v": "2013",
             "name": "Château Lafaurie Peyraguey, Sauternes",
             "price": "$1,950",
             "section": "France",
-            "note": "Dried fig, orange peel and honey. A challenging year expressed through restraint, savoury nuance and delicate fruit."
+            "note": "Dried apricot, orange blossom and ginger. Despite the cool 2013 season, Lafaurie-Peyraguey achieved concentrated botrytised fruit with the citrus-led freshness that distinguishes the vintage."
           },
           {
             "v": "2015",
             "name": "Château Rieussec, Sauternes",
             "price": "$1,488",
             "section": "France",
-            "note": "Quince, beeswax and ginger. Ripe and expressive, balancing generous fruit with polished structure."
+            "note": "Apricot, white peach and honey. The generous 2015 vintage gives Rieussec considerable richness, while vibrant acidity keeps its concentrated Sauternes profile energetic."
           }
         ]
       },
@@ -6121,7 +6166,7 @@ window.WINE_DATA =[
             "name": "Reichsgraf von Kesselstatt 'Scharzhofberger', Riesling Trockenbeerenauslese",
             "price": "$7,980 · 375 ml",
             "section": "Germany",
-            "note": "Apricot, marmalade and saffron. Richness is held in balance by freshness, preserving clarity through the concentrated fruit."
+            "note": "Apricot, marmalade and saffron. Noble-rot concentration is balanced by the vivid acidity and mineral definition associated with the Scharzhofberger vineyard."
           }
         ]
       },
@@ -6133,21 +6178,21 @@ window.WINE_DATA =[
             "name": "Az. Agricola Possa 'Sciacchetrà' Cinque Terre",
             "price": "$1,750 · 375 ml",
             "section": "Italy",
-            "note": "Black plum, violet and tobacco. Finishes with concentrated fruit lifted by citrusy acidity and a precise finish."
+            "note": "Dried apricot, caramel and cinnamon. Dried Cinque Terre grapes are foot-pressed and skin-macerated before ageing in pear and cherry wood, giving Possa’s Sciacchetrà unusual texture and saline freshness."
           },
           {
             "v": "2021",
             "name": "Donnafugata 'Ben Ryé'",
             "price": "$1,280 · 375 ml",
             "section": "Italy",
-            "note": "Yellow apple, herbal tea and almond. The cool 2021 vintage emphasises perfume, freshness and a lighter, more classical frame."
+            "note": "Apricot, candied orange and mango. Dried Zibibbo grapes are added gradually to fresh must during fermentation, building Ben Ryé’s concentration while preserving Pantelleria’s aromatic freshness."
           },
           {
             "v": "2022",
             "name": "Donnafugata 'Ben Ryé'",
             "price": "$2,280",
             "section": "Italy",
-            "note": "Red cherry, blackberry and herbs. The 2022 vintage is ripe and complete, combining generous fruit with freshness and well-formed structure."
+            "note": "Dried apricot, candied orange and marzipan. Zibibbo grown in Pantelleria’s traditional bush vines is partly dried before being added to fresh must, creating intensity without sacrificing freshness."
           },
           {
             "v": "NV",
@@ -6188,31 +6233,35 @@ window.WINE_DATA =[
         "items": [
           {
             "v": "",
-            "name": "Gu Yue Long Shan 10 Years / 古越龍山 10年",
+            "name": "Gu Yue Long Shan 10 Years",
             "price": "$950 · 500ml",
             "section": "Huangjiu",
-            "note": "Dark cherry, black plum and black pepper."
+            "note": "Dried plum, walnut and caramel. Matured Shaoxing huangjiu that balances savoury depth with the freshness characteristic of long-aged rice wine.",
+            "nameZh": "古越龍山 10年"
           },
           {
             "v": "",
-            "name": "Gu Yue Long Shan 20 Years / 古越龍山 20年",
+            "name": "Gu Yue Long Shan 20 Years",
             "price": "$1,660 · 500ml",
             "section": "Huangjiu",
-            "note": "Red cherry, blackberry and dried flowers."
+            "note": "Dried fig, walnut and toffee. Extended ageing builds greater concentration and complexity while preserving the hallmark balance of premium Shaoxing huangjiu.",
+            "nameZh": "古越龍山 20年"
           },
           {
             "v": "1990",
-            "name": "Gu Yue Long Shan Vintage / 古越龍山 1990年釀造釣魚臺",
+            "name": "Gu Yue Long Shan Vintage",
             "price": "$3,025 · 500ml",
             "section": "Huangjiu",
-            "note": "Cassis, plum and dried herbs."
+            "note": "Date, walnut and molasses. Long bottle ageing deepens the wine’s savoury character while maintaining remarkable energy and persistence.",
+            "nameZh": "古越龍山 1990年釀造釣魚臺"
           },
           {
             "v": "1960",
-            "name": "Gu Yue Long Shan Vintage / 古越龍山 1960年釀造",
+            "name": "Gu Yue Long Shan Vintage",
             "price": "$17,500 · 500ml",
             "section": "Huangjiu",
-            "note": "Reveals dried fruit, toasted grain and walnut-like savouriness form a mellow. On the palate, a supple opening followed by a firmer, more savoury close."
+            "note": "Dried date, mushroom and walnut. More than half a century of maturation has created exceptional complexity, concentration and umami depth.",
+            "nameZh": "古越龍山 1960年釀造"
           }
         ]
       },
@@ -6221,73 +6270,83 @@ window.WINE_DATA =[
         "items": [
           {
             "v": "",
-            "name": "Mao Tai 53 degrees / 貴州茅台 53度",
+            "name": "Mao Tai 53 degrees",
             "price": "$6,910 · 500ml",
             "section": "Baijiu",
-            "note": "Light-footed and precise."
+            "note": "Roasted grain, cacao and dried herbs. The benchmark sauce-aroma baijiu, produced in Maotai town through an extended traditional fermentation cycle.",
+            "nameZh": "貴州茅台 53度"
           },
           {
             "v": "",
-            "name": "Mao Tai 15 Years / 貴州茅台 15年",
+            "name": "Mao Tai 15 Years",
             "price": "$26,880 · 500ml",
             "section": "Baijiu",
-            "note": "Brings intensely aromatic, with ripe fruit and fragrant grain."
+            "note": "Roasted grain, dried fruit and liquorice. Extended cellar ageing adds greater polish and complexity while retaining Moutai’s signature sauce-aroma character.",
+            "nameZh": "貴州茅台 15年"
           },
           {
             "v": "",
-            "name": "Mao Tai 30 Years / 貴州茅台 30年",
+            "name": "Mao Tai 30 Years",
             "price": "$48,200 · 500ml",
             "section": "Baijiu",
-            "note": "Layers intensely aromatic, with ripe fruit and fragrant grain."
+            "note": "Dried fig, cacao and sandalwood. Long maturation brings remarkable integration and depth to Moutai’s iconic sauce-aroma profile.",
+            "nameZh": "貴州茅台 30年"
           },
           {
             "v": "",
-            "name": "Mao Tai 50 Years / 貴州茅台 50年",
+            "name": "Mao Tai 50 Years",
             "price": "$79,880 · 500ml",
             "section": "Baijiu",
-            "note": "Rich at the centre, fresh at the edges."
+            "note": "Date, cedar and dark chocolate. Decades of ageing create extraordinary concentration while preserving the elegance expected of mature Moutai.",
+            "nameZh": "貴州茅台 50年"
           },
           {
             "v": "",
-            "name": "Zhen Jiu 15 / 珍酒 珍十五",
+            "name": "Zhen Jiu 15",
             "price": "$2,850 · 500ml",
             "section": "Baijiu",
-            "note": "Broad in flavour, then neatly refreshed."
+            "note": "Roasted grain, dried fruit and liquorice. Crafted from mature reserve stocks and aged base spirits, this classic sauce-aroma bottling combines richness with notable refinement.",
+            "nameZh": "珍酒 珍十五"
           },
           {
             "v": "2013",
-            "name": "Zhen Jiu / 珍酒 二零一三年份酒",
+            "name": "Zhen Jiu",
             "price": "$2,980 · 500ml",
             "section": "Baijiu",
-            "note": "Brings intensely aromatic, with ripe fruit and fragrant grain."
+            "note": "Dried fruit, cacao and roasted grain. Produced from selected 2013 and older reserve spirits, it showcases the depth and maturity of Zhenjiu’s vintage programme.",
+            "nameZh": "珍酒 二零一三年份酒"
           },
           {
             "v": "",
-            "name": "Zhen Jiu 30 / 珍酒 珍三十",
+            "name": "Zhen Jiu 30",
             "price": "$4,580 · 500ml",
             "section": "Baijiu",
-            "note": "Carries intensely aromatic, with ripe fruit and fragrant grain."
+            "note": "Date, roasted grain and sandalwood. Longer-aged reserve stocks deliver a deeper and more layered interpretation of Zhenjiu’s sauce-aroma style.",
+            "nameZh": "珍酒 珍三十"
           },
           {
             "v": "",
-            "name": "National Cellar Liquor 1573 52 degrees / 國窖1573 52度",
+            "name": "National Cellar Liquor 1573 52 degrees",
             "price": "$4,370 · 500ml",
             "section": "Baijiu",
-            "note": "Intensely aromatic, with ripe fruit and fragrant grain."
+            "note": "Pineapple, pear and anise. Produced from historic fermentation cellars first established in 1573, this is one of China’s benchmark strong-aroma baijiu.",
+            "nameZh": "國窖1573 52度"
           },
           {
             "v": "",
-            "name": "Fen Chiew 30 Years / 汾酒30年",
+            "name": "Fen Chiew 30 Years",
             "price": "$4,180 · 850ml",
             "section": "Baijiu",
-            "note": "Rich at the centre, fresh at the edges."
+            "note": "Pear, almond and white pepper. The leading light-aroma baijiu, combining clarity and precision with the added complexity of extended ageing.",
+            "nameZh": "汾酒30年"
           },
           {
             "v": "",
-            "name": "Wu Liang Ye 52 degrees / 五粮液52度",
+            "name": "Wu Liang Ye 52 degrees",
             "price": "$4,180 · 500ml",
             "section": "Baijiu",
-            "note": "Reveals intensely aromatic, with ripe fruit and fragrant grain."
+            "note": "Pineapple, ripe pear and liquorice. Distilled from five grains, Wuliangye is renowned for the richness and harmony that define top-quality strong-aroma baijiu.",
+            "nameZh": "五粮液52度"
           }
         ]
       }
@@ -6298,35 +6357,40 @@ window.WINE_DATA =[
     "title": "Sake",
     "sections": [
       {
-        "name": "Hyogo / 兵庫",
+        "name": "Hyogo",
         "items": [
           {
             "v": "",
-            "name": "Kuno Kuheiji Honten Terroir Kurodasho Tako / 久野九平治本店テロワール 黒田庄町田高",
+            "name": "Kuno Kuheiji Honten Terroir Kurodasho Tako",
             "price": "$1,930",
-            "section": "Hyogo / 兵庫",
-            "note": "Red cherry, blackberry and dried flowers."
+            "section": "Hyogo",
+            "note": "Green apple, peach and white pepper. Yamadanishiki from Tako’s fertile, sun-exposed paddies gives this terroir-focused sake concentrated flavour balanced by dignified acidity.",
+            "nameZh": "久野九平治本店テロワール 黒田庄町田高"
           },
           {
             "v": "",
-            "name": "Kuno Kuheiji Honten Terroir Kurodasho Fukuchi / 久野九平治本店テロワール 黒田庄町福地",
+            "name": "Kuno Kuheiji Honten Terroir Kurodasho Fukuchi",
             "price": "$1,930",
-            "section": "Hyogo / 兵庫",
-            "note": "Cassis, plum and dried herbs. Shaped by concentration kept in proportion by structural freshness."
+            "section": "Hyogo",
+            "note": "Pear, white peach and steamed rice. Yamadanishiki from Fukuchi’s clay-rich paddies gives a fuller, rounder expression, with gentle acidity and fruit carrying through the finish.",
+            "nameZh": "久野九平治本店テロワール 黒田庄町福地"
           }
-        ]
+        ],
+        "nameZh": "兵庫"
       },
       {
-        "name": "Niigata / 新潟",
+        "name": "Niigata",
         "items": [
           {
             "v": "",
-            "name": "Dassai 23 Junmai Daiginjo (half bottle) / 獺祭 二割三分",
+            "name": "Dassai 23 Junmai Daiginjo (half bottle)",
             "price": "$780",
-            "section": "Niigata / 新潟",
-            "note": "Red cherry, blackberry and dried flowers."
+            "section": "Niigata",
+            "note": "White flowers, pear and honey. Yamadanishiki polished to 23% gives Dassai’s flagship Junmai Daiginjo exceptional aromatic delicacy and a silky, elegant profile.",
+            "nameZh": "獺祭 二割三分"
           }
-        ]
+        ],
+        "nameZh": "新潟"
       }
     ]
   }
