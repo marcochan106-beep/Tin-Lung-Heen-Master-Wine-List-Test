@@ -1,0 +1,244 @@
+:root{--ink:#201b16;--gold:#b68735;--paper:#f3f0e9;--card:#fff;--muted:#70685f;--line:#ddd5c9;--dark:#171411}*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:Segoe UI,Arial,"PingFang HK","Microsoft JhengHei",sans-serif;background:var(--paper);color:var(--ink);-webkit-text-size-adjust:100%}button,input{font:inherit}.app{display:grid;grid-template-columns:320px minmax(0,1fr);min-height:100vh}.side{position:fixed;inset:0 auto 0 0;width:320px;overflow-y:auto;background:var(--dark);color:#fff;padding:24px 20px 36px}.brand{color:#e6c477;text-transform:uppercase;letter-spacing:.18em;font-size:12px}.side h1{font-family:Georgia,serif;font-size:22px;font-weight:500;margin:5px 0 18px}.search{position:sticky;top:0;z-index:4;width:100%;padding:12px;border-radius:11px;border:1px solid #4e463e;background:#29241f;color:#fff;outline:none}.search:focus{border-color:#e6c477}.nav{margin-top:18px}.nav button{display:block;width:100%;border:0;background:transparent;color:#eee;text-align:left;padding:10px 11px;border-radius:9px;cursor:pointer;line-height:1.25}.nav button.active{background:var(--gold);color:#171411}.count{float:right;opacity:.65;font-size:11px}.shell{grid-column:2;min-width:0}.status{height:57px;position:sticky;top:0;z-index:9;display:flex;align-items:center;padding:0 34px;border-bottom:1px solid var(--line);background:rgba(243,240,233,.96);backdrop-filter:blur(10px)}.status b{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.meta{margin-left:auto;color:var(--muted);font-size:12px;white-space:nowrap}.main{max-width:1080px;margin:auto;padding:28px 34px 70px}.hero{background:linear-gradient(135deg,#fff,#fbf3e3);border:1px solid var(--line);border-radius:19px;padding:26px 28px;margin-bottom:22px}.kicker{font-size:11px;color:#93651f;font-weight:800;text-transform:uppercase;letter-spacing:.16em}.hero h2{font-family:Georgia,serif;font-size:36px;font-weight:500;line-height:1.15;margin:6px 0}.hero p{margin:0;color:var(--muted)}.section{margin:27px 0 34px}.section h3{margin:0 0 10px;padding:0 4px 10px;border-bottom:1px solid var(--line);font-size:12px;color:#76521d;letter-spacing:.14em;text-transform:uppercase}.wine{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:9px 0;overflow:hidden}.row{width:100%;display:grid;grid-template-columns:64px minmax(0,1fr) auto 24px;gap:13px;align-items:start;border:0;background:transparent;text-align:left;color:inherit;padding:17px 18px;cursor:pointer}.row:active{background:#faf7f1}.v{color:var(--muted);font-variant-numeric:tabular-nums}.name{font-weight:700;line-height:1.38}.price{color:#76521d;font-weight:700;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}.plus{color:var(--gold);font-size:22px;line-height:18px;text-align:center}.inside{display:none;border-top:1px solid var(--line);padding:13px 18px 16px 95px;color:var(--muted);line-height:1.5}.wine.open .inside{display:block}.wine.open .plus{transform:rotate(45deg)}.legal{margin-top:42px;border-top:1px solid var(--line);padding-top:17px;color:var(--muted);font-size:12px}.empty{text-align:center;padding:70px;color:var(--muted)}
+@media (max-width:900px) {
+  .app {
+    grid-template-columns:280px 1fr;
+  }
+
+  .side {
+    width:280px;
+  }
+
+  .main {
+    padding:22px;
+  }
+
+  .status {
+    padding:0 22px;
+  }
+
+  .row {
+    grid-template-columns:55px minmax(0,1fr) auto 20px;
+    gap:10px;
+  }
+
+  .inside {
+    padding-left:83px;
+  }
+
+  .hero h2 {
+    font-size:31px;
+  }
+}
+
+@media (max-width:768px) {
+  .app {
+    display:block;
+  }
+
+  .side {
+    position:relative;
+    width:100%;
+    inset:auto;
+    padding:16px;
+  }
+
+  .shell {
+    width:100%;
+  }
+
+  .status {
+    position:sticky;
+    top:0;
+    padding:0 16px;
+  }
+
+  .meta {
+    font-size:11px;
+  }
+
+  .main {
+    padding:16px;
+  }
+
+  .hero {
+    padding:20px;
+  }
+
+  .hero h2 {
+    font-size:26px;
+  }
+
+  .row {
+    grid-template-columns:44px minmax(0,1fr);
+    gap:8px 10px;
+    padding:14px;
+  }
+
+  .v {
+    grid-column:1;
+    grid-row:1 / span 2;
+  }
+
+  .name {
+    grid-column:2;
+  }
+
+  .price {
+    grid-column:2;
+    text-align:left;
+    margin-top:4px;
+    white-space:normal;
+  }
+
+  .plus {
+    display:none;
+  }
+
+  .inside {
+    padding:12px 16px;
+  }
+}
+
+.navgroup{margin:2px 0}.navcat{display:grid!important;grid-template-columns:1fr auto;gap:8px;align-items:center}.navcat .chev{width:16px;text-align:center;color:#c8a75c}.subnav{display:none;padding:3px 0 8px 13px;border-left:1px solid rgba(214,183,109,.35);margin-left:10px}.subnav.show{display:block}.navsub{display:block!important;font-size:12px!important;padding:8px 10px!important;color:#cfcac3!important}.navsub.active{background:rgba(182,135,53,.28)!important;color:#fff!important}
+
+.featured-star {
+  color: #e6c477;
+  margin-right: 6px;
+}
+
+/* Wine of the Month featured editorial layout */
+.hero-wotm{
+  color:#f8f1df;
+  background:
+    radial-gradient(circle at 82% 20%,rgba(230,196,119,.16),transparent 30%),
+    linear-gradient(135deg,#211a14,#4a281f 62%,#7b3e2e);
+  border-color:rgba(182,135,53,.7);
+  box-shadow:0 18px 45px rgba(32,20,10,.18);
+}
+.hero-wotm .kicker{color:#e6c477}
+.hero-wotm p{color:#ded4c7}
+.wotm-feature{
+  position:relative;
+  overflow:hidden;
+  background:linear-gradient(145deg,#fffdfa,#f4ead9);
+  border:1px solid rgba(182,135,53,.55);
+  border-radius:22px;
+  padding:34px;
+  box-shadow:0 18px 45px rgba(44,30,18,.14);
+}
+.wotm-feature::before{
+  content:"";
+  position:absolute;
+  inset:0 0 auto;
+  height:5px;
+  background:linear-gradient(90deg,#7e4e27,#d6b56c,#7e4e27);
+}
+.wotm-ribbon{
+  display:inline-block;
+  margin-bottom:22px;
+  color:#76521d;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+}
+.wotm-grid{
+  display:grid;
+  grid-template-columns:minmax(190px,260px) minmax(0,1fr);
+  gap:38px;
+  align-items:center;
+}
+.feature-media{
+  min-height:330px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:18px;
+  border:1px solid #d6c7b4;
+  border-radius:16px;
+  background:#ede4d7;
+  box-shadow:inset 0 0 0 7px rgba(255,255,255,.45);
+}
+.feature-media img{
+  display:block;
+  width:100%;
+  max-width:210px;
+  max-height:420px;
+  object-fit:contain;
+  filter:drop-shadow(0 12px 15px rgba(48,28,15,.2));
+}
+.feature-image-fallback{display:none;text-align:center;font-family:Georgia,serif;color:#76521d;line-height:1.5}
+.feature-media.image-error .feature-image-fallback{display:block}
+.wotm-vintage{
+  color:#9d6c27;
+  font-family:Georgia,serif;
+  font-size:24px;
+  letter-spacing:.08em;
+}
+.wotm-summary h2{
+  margin:7px 0 24px;
+  max-width:650px;
+  font-family:Georgia,serif;
+  font-size:35px;
+  font-weight:500;
+  line-height:1.17;
+}
+.wotm-prices{
+  display:inline-block;
+  padding:16px 20px;
+  color:#6f491a;
+  background:rgba(255,255,255,.72);
+  border:1px solid #d9c7aa;
+  border-radius:13px;
+  font-weight:700;
+  font-variant-numeric:tabular-nums;
+  line-height:1.8;
+}
+.wotm-copy{
+  max-width:800px;
+  margin:30px auto 0;
+  padding-top:26px;
+  border-top:1px solid #d8c9b6;
+  color:#4d453c;
+  font-size:16px;
+  line-height:1.72;
+}
+.wotm-copy p{margin:0 0 18px}
+.wotm-copy p:first-child{color:#2d251d;font-size:17px}
+.wotm-copy p:last-child{margin-bottom:0}
+@media (max-width:900px){
+  .wotm-feature{padding:28px}
+  .wotm-grid{grid-template-columns:190px minmax(0,1fr);gap:26px}
+  .feature-media{min-height:280px}
+  .feature-media img{max-height:270px}
+  .wotm-summary h2{font-size:29px}
+}
+@media (max-width:650px){
+  .wotm-feature{padding:24px 18px}
+  .wotm-grid{grid-template-columns:1fr;text-align:center}
+  .feature-media{max-width:250px;width:100%;min-height:260px;margin:auto}
+  .wotm-summary h2{font-size:26px}
+  .wotm-copy{text-align:left;font-size:15px}
+}
+
+/* Traditional Chinese / English language toggle */
+.lang-toggle{margin-left:14px;min-width:72px;padding:7px 10px;border:1px solid #b68735;border-radius:7px;background:#fffaf0;color:#756a5d;font-size:13px;font-weight:700;letter-spacing:.04em;cursor:pointer;white-space:nowrap}
+.lang-toggle:hover,.lang-toggle:focus-visible{background:#f3e5c6;outline:none}
+.lang-toggle span{opacity:.55}.lang-toggle span.active{color:#76521d;opacity:1}
+html[lang="zh-Hant-HK"] .wotm-copy{font-family:"PingFang HK","Microsoft JhengHei",sans-serif;letter-spacing:.01em}
+html[lang="zh-Hant-HK"] .wotm-summary h2{font-family:"Noto Serif TC","Songti TC","PMingLiU",serif}
+@media (max-width:768px){.lang-toggle{margin-left:8px;min-width:66px;padding:7px 8px}.meta{display:none}}
+
+/* iPad portrait: prevent Chinese Wine of the Month prices from splitting */
+.wotm-price-line{white-space:nowrap}
+.wotm-price-line + .wotm-price-line{margin-top:3px}
+@media (min-width:769px) and (max-width:1100px) and (orientation:portrait){
+  .wotm-grid{grid-template-columns:1fr;text-align:center;gap:22px}
+  .feature-media{width:230px;min-height:290px;margin:0 auto;padding:12px}
+  .feature-media img{max-width:190px;max-height:300px}
+  .wotm-summary h2{max-width:100%;margin-left:auto;margin-right:auto}
+  .wotm-prices{display:inline-block;max-width:100%;font-size:14px;padding:14px 16px;text-align:left}
+}
+@media (max-width:520px){
+  .wotm-price-line{white-space:normal}
+}
