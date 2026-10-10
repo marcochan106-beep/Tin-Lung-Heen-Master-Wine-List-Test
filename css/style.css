@@ -242,3 +242,19 @@ html[lang="zh-Hant-HK"] .wotm-summary h2{font-family:"Noto Serif TC","Songti TC"
 @media (max-width:520px){
   .wotm-price-line{white-space:normal}
 }
+
+
+/* Text-size controls */
+:root{--font-scale:1}
+html[data-font-size="normal"]{--font-scale:1}
+html[data-font-size="large"]{--font-scale:1.15}
+.font-controls{display:inline-flex;align-items:center;margin-left:8px;border:1px solid #b68735;border-radius:7px;overflow:hidden;background:#fffaf0;white-space:nowrap}
+.font-btn{min-width:35px;padding:7px 8px;border:0;border-right:1px solid rgba(182,135,53,.38);background:transparent;color:#756a5d;font-size:13px;font-weight:700;line-height:1;cursor:pointer}
+.font-btn:last-child{border-right:0}
+.font-btn:hover,.font-btn:focus-visible{background:#f3e5c6;outline:none}
+.font-btn.active{background:var(--gold);color:#171411}
+body{font-size:calc(16px * var(--font-scale))}
+.side h1{font-size:calc(22px * var(--font-scale))}.brand{font-size:calc(12px * var(--font-scale))}.meta{font-size:calc(12px * var(--font-scale))}.kicker{font-size:calc(11px * var(--font-scale))}.hero h2{font-size:calc(36px * var(--font-scale))}.section h3{font-size:calc(12px * var(--font-scale))}.navsub{font-size:calc(12px * var(--font-scale))!important}.legal{font-size:calc(12px * var(--font-scale))}.wotm-ribbon{font-size:calc(11px * var(--font-scale))}.wotm-vintage{font-size:calc(24px * var(--font-scale))}.wotm-summary h2{font-size:calc(35px * var(--font-scale))}.wotm-copy{font-size:calc(16px * var(--font-scale))}.wotm-copy p:first-child{font-size:calc(17px * var(--font-scale))}
+@media (max-width:900px){.hero h2{font-size:calc(31px * var(--font-scale))}.wotm-summary h2{font-size:calc(29px * var(--font-scale))}}
+@media (max-width:768px){.font-controls{margin-left:6px}.font-btn{min-width:32px;padding:7px 6px}.hero h2{font-size:calc(26px * var(--font-scale))}}
+@media (max-width:650px){.wotm-summary h2{font-size:calc(26px * var(--font-scale))}.wotm-copy{font-size:calc(15px * var(--font-scale))}}
