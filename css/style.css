@@ -260,13 +260,13 @@ body{font-size:calc(16px * var(--font-scale))}
 @media (max-width:650px){.wotm-summary h2{font-size:calc(26px * var(--font-scale))}.wotm-copy{font-size:calc(15px * var(--font-scale))}}
 
 
-/* Six-wine selection tray */
-.status.has-marker{height:auto;min-height:104px;max-height:330px;flex-wrap:wrap;align-content:flex-start;row-gap:8px;padding-top:8px;padding-bottom:8px}
+/* Single-wine selection panel */
+.status.has-marker{height:auto;min-height:104px;max-height:none;flex-wrap:wrap;align-content:flex-start;row-gap:8px;padding-top:8px;padding-bottom:8px}
 .marker-status{order:10;flex:0 0 100%;min-width:0;border:1px solid rgba(182,135,53,.55);border-radius:10px;background:#fff3d6;color:#76521d;overflow:hidden}
 .marker-status[hidden]{display:none}
 .marker-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:7px 10px;border-bottom:1px solid rgba(182,135,53,.32);font-size:12px}
 .marker-clear-all{border:1px solid #b68735;border-radius:7px;background:#fffaf0;color:#76521d;padding:5px 9px;font-size:11px;font-weight:800;cursor:pointer}
-.marker-list{max-height:216px;overflow-y:auto;overscroll-behavior:contain}
+.marker-list{overflow:visible}
 .marker-row{display:flex;align-items:center;min-width:0;border-bottom:1px solid rgba(182,135,53,.2)}
 .marker-row:last-child{border-bottom:0}
 .marker-jump{display:flex;align-items:center;gap:9px;min-width:0;flex:1;border:0;background:transparent;color:#76521d;text-align:left;padding:8px 10px;cursor:pointer}
@@ -275,8 +275,6 @@ body{font-size:calc(16px * var(--font-scale))}
 .marker-remove{flex:0 0 38px;align-self:stretch;border:0;border-left:1px solid rgba(182,135,53,.25);background:rgba(255,255,255,.35);color:#76521d;font-size:19px;cursor:pointer}
 .wine-type{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;flex:0 0 18px;border-radius:50%;font-size:12px;font-weight:900}
 .type-sparkling{background:#efe1a6;color:#7a5a00}.type-white{background:#f5edc8;color:#9a7b17;border:1px solid #d7c375}.type-red{background:#7c2638;color:#fff}.type-rose{background:#eaa7ad;color:#7a2430}.type-dessert{border-radius:5px;background:#c98b20;color:#fff}.type-other{background:#ddd5c9;color:#70685f}
-.marker-status.limit-flash{animation:markerShake .7s ease}
-@keyframes markerShake{0%,100%{transform:translateX(0)}25%{transform:translateX(-5px)}50%{transform:translateX(5px)}75%{transform:translateX(-3px)}}
 .wine.marked,.wotm-feature.marked{border-color:var(--gold);background:#fff8e8;box-shadow:0 0 0 2px rgba(182,135,53,.22)}
 .wine.marked .row{background:#fff4d8}
 .jump-pulse{animation:jumpPulse 1.6s ease}
@@ -284,8 +282,8 @@ body{font-size:calc(16px * var(--font-scale))}
 .mark-wine{margin-top:14px;border:1px solid #b68735;border-radius:9px;background:#fffaf0;color:#76521d;padding:9px 12px;font-size:12px;font-weight:800;cursor:pointer;touch-action:manipulation;-webkit-user-select:none;user-select:none}
 .mark-wine.holding{background:var(--gold);color:#171411;transform:scale(.98)}
 .feature-mark{display:block;margin:22px auto 0}
-@media (max-width:900px){.status.has-marker{max-height:300px}.marker-list{max-height:184px}}
-@media (max-width:768px){.status.has-marker{max-height:285px;flex-wrap:wrap;row-gap:7px}.marker-toolbar{padding:6px 9px}.marker-jump{padding:7px 9px}.marker-status-label{font-size:11px}.marker-list{max-height:168px}}
+@media (max-width:900px){.status.has-marker{max-height:none}}
+@media (max-width:768px){.status.has-marker{max-height:none;flex-wrap:wrap;row-gap:7px}.marker-toolbar{padding:6px 9px}.marker-jump{padding:7px 9px}.marker-status-label{font-size:11px}}
 
 
 /* By-the-glass quantity and seat controls */
