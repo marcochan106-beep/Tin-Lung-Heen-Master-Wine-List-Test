@@ -16,6 +16,15 @@ function updateLanguageUI(){
 langToggle.onclick=()=>{lang=lang==='zh'?'en':'zh';localStorage.setItem('wineListLanguage',lang);updateLanguageUI();navR();render();};updateLanguageUI();
 function updateFontUI(){document.documentElement.dataset.fontSize=fontSize;fontControls.querySelectorAll('.font-btn').forEach(btn=>{const active=btn.dataset.size===fontSize;btn.classList.toggle('active',active);btn.setAttribute('aria-pressed',String(active));});}
 fontControls.querySelectorAll('.font-btn').forEach(btn=>btn.onclick=()=>{fontSize=btn.dataset.size;localStorage.setItem('wineListFontSize',fontSize);updateFontUI();});updateFontUI();
+let markedWine=null;
+const markerStatus=document.createElement('div');markerStatus.className='marker-status';markerStatus.hidden=true;markerStatus.innerHTML='<span class="marker-status-label"></span><button type="button" class="marker-clear">Clear</button>';fontControls.insertAdjacentElement('afterend',markerStatus);
+function wineKey(x){return [x.v,x.name,x.price].join('|');}
+function markerText(x){return (x.v?x.v+' · ':'')+x.name;}
+function updateMarkerUI(){markerStatus.hidden=!markedWine;markerStatus.querySelector('.marker-status-label').textContent=markedWine?(lang==='zh'?'已選：':'Selected: ')+markerText(markedWine):'';markerStatus.querySelector('.marker-clear').textContent=lang==='zh'?'清除':'Clear';document.querySelectorAll('.wine,.wotm-feature').forEach(el=>el.classList.toggle('marked',!!markedWine&&el.dataset.wineKey===wineKey(markedWine)));}
+function clearMarkedWine(){markedWine=null;updateMarkerUI();}
+markerStatus.querySelector('.marker-clear').onclick=clearMarkedWine;
+function bindMarkButtons(){main.querySelectorAll('.mark-wine').forEach(btn=>{let timer=null,done=false;const stop=()=>{if(timer)clearTimeout(timer);timer=null;btn.classList.remove('holding');};const start=e=>{e.preventDefault();done=false;stop();btn.classList.add('holding');timer=setTimeout(()=>{markedWine={v:btn.dataset.v,name:btn.dataset.name,price:btn.dataset.price};done=true;btn.classList.remove('holding');updateMarkerUI();},800);};btn.addEventListener('pointerdown',start);btn.addEventListener('pointerup',stop);btn.addEventListener('pointercancel',stop);btn.addEventListener('pointerleave',stop);btn.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();if(!done)btn.classList.remove('holding');});});updateMarkerUI();}
+
 // Navigation intentionally begins hierarchical browsing only after Sommelier Selection.
 const PRE_SOMMELIER_IDS=new Set(['c0','c1','c3','c4','c5']);
 const GROUPS={
@@ -143,7 +152,7 @@ function navR(){
 });
 }
 function card(x){
-  return `<article class="wine">
+  return `<article class="wine" data-wine-key="${esc(wineKey(x))}">
     <button class="row" aria-expanded="false">
       <span class="v">${x.v}</span>
       <span class="name">${esc(x.name)}</span>
@@ -152,7 +161,7 @@ ${esc(x.price).replace(/ · /g,'<br>')}
 </span>
       <span class="plus">+</span>
     </button>
-    <div class="inside">${esc(x.note).replace(/\n/g,'<br>')}</div>
+    <div class="inside"><div>${esc(x.note).replace(/\n/g,'<br>')}</div><button type="button" class="mark-wine" data-v="${esc(x.v)}" data-name="${esc(x.name)}" data-price="${esc(x.price)}">☆ <span>${lang==='zh'?'按住以標記此酒':'Hold to mark this wine'}</span></button></div>
   </article>`
 }
 function featureNote(note){
@@ -160,7 +169,7 @@ function featureNote(note){
 }
 function featureCard(x){
   const image=x.image?`<div class="feature-media"><img src="${esc(x.image)}" alt="${esc(lang==='zh'?(x.imageAltZh||x.imageAlt||pick(x,'name')):(x.imageAlt||x.name))}" loading="eager" onerror="this.closest('.feature-media').classList.add('image-error');this.remove()"><div class="feature-image-fallback">1982<br>Château Cos d’Estournel</div></div>`:'';
-  return `<section class="wotm-feature">
+  return `<section class="wotm-feature" data-wine-key="${esc(wineKey(x))}">
     <div class="wotm-ribbon">${esc(ui().featured)}</div>
     <div class="wotm-grid">
       ${image}
@@ -171,9 +180,10 @@ function featureCard(x){
       </div>
     </div>
     <div class="wotm-copy">${featureNote(pick(x,'note'))}</div>
+    <button type="button" class="mark-wine feature-mark" data-v="${esc(x.v)}" data-name="${esc(x.name)}" data-price="${esc(x.price)}">☆ <span>${lang==='zh'?'按住以標記此酒':'Hold to mark this wine'}</span></button>
   </section>`;
 }
-function bind(){main.querySelectorAll('.row').forEach(b=>b.onclick=()=>{const a=b.closest('.wine'),o=a.classList.toggle('open');b.setAttribute('aria-expanded',o)})}function render(){const query=q.value.trim().toLowerCase();if(query){let groups=[];C.forEach(c=>c.sections.forEach(s=>{let items=s.items.filter(x=>(c.title+' '+s.name+' '+x.v+' '+x.name+' '+x.price+' '+x.note).toLowerCase().includes(query));if(items.length)groups.push({title:c.title+' · '+s.name,items})}));let count=groups.reduce((a,g)=>a+g.items.length,0);st.textContent='Search results';meta.textContent=totalSelections+' selections · Updated '+updated;main.innerHTML=`<section class="hero"><div class="kicker">Search</div><h2>${esc(q.value)}</h2><p>${count} matching selections</p></section>`+(groups.length?groups.map(g=>`<section class="section"><h3>${esc(g.title)}</h3>${g.items.map(card).join('')}</section>`).join(''):'<div class="empty">No matching selection found.</div>');bind();return}let c=C.find(x=>x.id===current)||C[0];st.textContent='';meta.textContent=totalSelections+' '+ui().selections+' · '+ui().updated+' '+updated;const sectionKey=value=>String(value??'')
+function bind(){main.querySelectorAll('.row').forEach(b=>b.onclick=()=>{const a=b.closest('.wine'),o=a.classList.toggle('open');b.setAttribute('aria-expanded',o)});bindMarkButtons();}function render(){const query=q.value.trim().toLowerCase();if(query){let groups=[];C.forEach(c=>c.sections.forEach(s=>{let items=s.items.filter(x=>(c.title+' '+s.name+' '+x.v+' '+x.name+' '+x.price+' '+x.note).toLowerCase().includes(query));if(items.length)groups.push({title:c.title+' · '+s.name,items})}));let count=groups.reduce((a,g)=>a+g.items.length,0);st.textContent='Search results';meta.textContent=totalSelections+' selections · Updated '+updated;main.innerHTML=`<section class="hero"><div class="kicker">Search</div><h2>${esc(q.value)}</h2><p>${count} matching selections</p></section>`+(groups.length?groups.map(g=>`<section class="section"><h3>${esc(g.title)}</h3>${g.items.map(card).join('')}</section>`).join(''):'<div class="empty">No matching selection found.</div>');bind();return}let c=C.find(x=>x.id===current)||C[0];st.textContent='';meta.textContent=totalSelections+' '+ui().selections+' · '+ui().updated+' '+updated;const sectionKey=value=>String(value??'')
   .normalize('NFD')
   .replace(/[\u0300-\u036f]/g,'')
   .toLowerCase()
@@ -188,6 +198,7 @@ let sections=group
 if(c.id==='c0'&&!group){
   const item=c.sections[0]?.items?.[0];
   main.innerHTML=`<section class="hero hero-wotm"><div class="kicker">Tin Lung Heen</div><h2>${esc(ui().heroTitle)}</h2><p>${esc(ui().heroSub)}</p></section>`+(item?featureCard(item):`<div class="empty">${esc(ui().noFeature)}</div>`)+`<div class="legal">${esc(ui().legal)}</div>`;
+  bindMarkButtons();
   return;
 }
 main.innerHTML=`<section class="hero"><div class="kicker">Tin Lung Heen${group?' · '+esc(c.title):''}</div><h2>${esc(group?group.name:c.title)}</h2></section>`+sections.map(s=>`<section class="section"><h3>${esc(s.name)}</h3>${s.items.map(card).join('')}</section>`).join('')+`<div class="legal">All prices are in HK$ and subject to 10% service charge. All wines are inspected for quality. Wines priced over HK$10,000 are sold "AS-IS"; no return or refund after the wine is opened.</div>`;bind()}q.oninput=render;navR();render();

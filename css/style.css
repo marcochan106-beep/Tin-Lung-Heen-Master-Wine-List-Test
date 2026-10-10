@@ -258,3 +258,17 @@ body{font-size:calc(16px * var(--font-scale))}
 @media (max-width:900px){.hero h2{font-size:calc(31px * var(--font-scale))}.wotm-summary h2{font-size:calc(29px * var(--font-scale))}}
 @media (max-width:768px){.font-controls{margin-left:6px}.font-btn{width:52px;padding:7px 0}.hero h2{font-size:calc(26px * var(--font-scale))}}
 @media (max-width:650px){.wotm-summary h2{font-size:calc(26px * var(--font-scale))}.wotm-copy{font-size:calc(15px * var(--font-scale))}}
+
+
+/* Single-wine order marker */
+.marker-status{display:flex;align-items:center;gap:8px;min-width:0;margin-left:10px;padding-left:10px;border-left:1px solid var(--line)}
+.marker-status[hidden]{display:none}
+.marker-status-label{max-width:310px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#76521d;font-size:12px;font-weight:800}
+.marker-clear{border:1px solid #b68735;border-radius:7px;background:#fffaf0;color:#76521d;padding:7px 10px;font-size:12px;font-weight:800;cursor:pointer}
+.wine.marked,.wotm-feature.marked{border-color:var(--gold);background:#fff8e8;box-shadow:0 0 0 2px rgba(182,135,53,.22)}
+.wine.marked .row{background:#fff4d8}
+.mark-wine{margin-top:14px;border:1px solid #b68735;border-radius:9px;background:#fffaf0;color:#76521d;padding:9px 12px;font-size:12px;font-weight:800;cursor:pointer;touch-action:manipulation;-webkit-user-select:none;user-select:none}
+.mark-wine.holding{background:var(--gold);color:#171411;transform:scale(.98)}
+.feature-mark{display:block;margin:22px auto 0}
+@media (max-width:900px){.marker-status-label{max-width:190px}.marker-status{margin-left:7px;padding-left:7px}.marker-clear{padding:7px 8px}}
+@media (max-width:768px){.marker-status{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:1100;margin:0;padding:9px 10px;border:1px solid #b68735;border-radius:11px;background:#fffaf0;box-shadow:0 8px 24px rgba(0,0,0,.2)}.marker-status-label{max-width:none;flex:1}.marker-clear{background:#fff}}
