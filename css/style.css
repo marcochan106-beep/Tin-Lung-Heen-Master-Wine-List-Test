@@ -260,15 +260,60 @@ body{font-size:calc(16px * var(--font-scale))}
 @media (max-width:650px){.wotm-summary h2{font-size:calc(26px * var(--font-scale))}.wotm-copy{font-size:calc(15px * var(--font-scale))}}
 
 
-/* Single-wine order marker */
-.marker-status{display:flex;align-items:center;gap:8px;min-width:0;margin-left:10px;padding-left:10px;border-left:1px solid var(--line)}
+/* Six-wine selection tray */
+.status.has-marker{height:auto;min-height:104px;max-height:330px;flex-wrap:wrap;align-content:flex-start;row-gap:8px;padding-top:8px;padding-bottom:8px}
+.marker-status{order:10;flex:0 0 100%;min-width:0;border:1px solid rgba(182,135,53,.55);border-radius:10px;background:#fff3d6;color:#76521d;overflow:hidden}
 .marker-status[hidden]{display:none}
-.marker-status-label{max-width:310px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#76521d;font-size:12px;font-weight:800}
-.marker-clear{border:1px solid #b68735;border-radius:7px;background:#fffaf0;color:#76521d;padding:7px 10px;font-size:12px;font-weight:800;cursor:pointer}
+.marker-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:7px 10px;border-bottom:1px solid rgba(182,135,53,.32);font-size:12px}
+.marker-clear-all{border:1px solid #b68735;border-radius:7px;background:#fffaf0;color:#76521d;padding:5px 9px;font-size:11px;font-weight:800;cursor:pointer}
+.marker-list{max-height:216px;overflow-y:auto;overscroll-behavior:contain}
+.marker-row{display:flex;align-items:center;min-width:0;border-bottom:1px solid rgba(182,135,53,.2)}
+.marker-row:last-child{border-bottom:0}
+.marker-jump{display:flex;align-items:center;gap:9px;min-width:0;flex:1;border:0;background:transparent;color:#76521d;text-align:left;padding:8px 10px;cursor:pointer}
+.marker-jump:hover,.marker-jump:focus-visible{background:rgba(255,255,255,.55);outline:none}
+.marker-status-label{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px;font-weight:800}
+.marker-remove{flex:0 0 38px;align-self:stretch;border:0;border-left:1px solid rgba(182,135,53,.25);background:rgba(255,255,255,.35);color:#76521d;font-size:19px;cursor:pointer}
+.wine-type{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;flex:0 0 18px;border-radius:50%;font-size:12px;font-weight:900}
+.type-sparkling{background:#efe1a6;color:#7a5a00}.type-white{background:#f5edc8;color:#9a7b17;border:1px solid #d7c375}.type-red{background:#7c2638;color:#fff}.type-rose{background:#eaa7ad;color:#7a2430}.type-dessert{border-radius:5px;background:#c98b20;color:#fff}.type-other{background:#ddd5c9;color:#70685f}
+.marker-status.limit-flash{animation:markerShake .7s ease}
+@keyframes markerShake{0%,100%{transform:translateX(0)}25%{transform:translateX(-5px)}50%{transform:translateX(5px)}75%{transform:translateX(-3px)}}
 .wine.marked,.wotm-feature.marked{border-color:var(--gold);background:#fff8e8;box-shadow:0 0 0 2px rgba(182,135,53,.22)}
 .wine.marked .row{background:#fff4d8}
+.jump-pulse{animation:jumpPulse 1.6s ease}
+@keyframes jumpPulse{0%,100%{box-shadow:0 0 0 2px rgba(182,135,53,.22)}40%{box-shadow:0 0 0 7px rgba(182,135,53,.45)}}
 .mark-wine{margin-top:14px;border:1px solid #b68735;border-radius:9px;background:#fffaf0;color:#76521d;padding:9px 12px;font-size:12px;font-weight:800;cursor:pointer;touch-action:manipulation;-webkit-user-select:none;user-select:none}
 .mark-wine.holding{background:var(--gold);color:#171411;transform:scale(.98)}
 .feature-mark{display:block;margin:22px auto 0}
-@media (max-width:900px){.marker-status-label{max-width:190px}.marker-status{margin-left:7px;padding-left:7px}.marker-clear{padding:7px 8px}}
-@media (max-width:768px){.marker-status{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:1100;margin:0;padding:9px 10px;border:1px solid #b68735;border-radius:11px;background:#fffaf0;box-shadow:0 8px 24px rgba(0,0,0,.2)}.marker-status-label{max-width:none;flex:1}.marker-clear{background:#fff}}
+@media (max-width:900px){.status.has-marker{max-height:300px}.marker-list{max-height:184px}}
+@media (max-width:768px){.status.has-marker{max-height:285px;flex-wrap:wrap;row-gap:7px}.marker-toolbar{padding:6px 9px}.marker-jump{padding:7px 9px}.marker-status-label{font-size:11px}.marker-list{max-height:168px}}
+
+
+/* By-the-glass quantity and seat controls */
+.marker-row{display:block}
+.marker-row-main{display:flex;align-items:stretch;min-width:0}
+.glass-controls{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:7px 10px 8px 37px;background:rgba(255,255,255,.3);border-top:1px dashed rgba(182,135,53,.28)}
+.glass-quantity{display:inline-flex;align-items:center;overflow:hidden;border:1px solid rgba(182,135,53,.55);border-radius:7px;background:#fffaf0;color:#76521d;font-size:11px;font-weight:800;white-space:nowrap}
+.glass-quantity span{min-width:66px;padding:5px 7px;text-align:center}
+.glass-step{width:29px;align-self:stretch;border:0;background:transparent;color:#76521d;font-size:16px;font-weight:800;cursor:pointer}
+.glass-step:first-child{border-right:1px solid rgba(182,135,53,.35)}
+.glass-step:last-child{border-left:1px solid rgba(182,135,53,.35)}
+.seat-controls{display:flex;align-items:center;gap:4px}
+.seat-btn{min-width:30px;padding:5px 6px;border:1px solid rgba(182,135,53,.48);border-radius:6px;background:#fffaf0;color:#756a5d;font-size:10px;font-weight:800;cursor:pointer}
+.seat-btn.active{border-color:var(--gold);background:var(--gold);color:#171411}
+@media (max-width:900px){.glass-controls{align-items:flex-start;flex-direction:column;padding-left:37px}.seat-controls{flex-wrap:wrap}}
+@media (max-width:520px){.glass-controls{padding-left:9px}.seat-btn{min-width:29px;padding:5px 4px}}
+
+
+/* Serving-format controls */
+.service-controls{padding:7px 10px 8px 37px;background:rgba(255,255,255,.3);border-top:1px dashed rgba(182,135,53,.28)}
+.format-controls{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
+.format-btn{padding:6px 9px;border:1px solid rgba(182,135,53,.5);border-radius:7px;background:#fffaf0;color:#756a5d;font-size:10px;font-weight:800;cursor:pointer;white-space:nowrap}
+.format-btn.active{border-color:var(--gold);background:var(--gold);color:#171411;box-shadow:0 2px 7px rgba(182,135,53,.25)}
+.service-controls .glass-controls{margin-top:7px;padding:0;background:transparent;border-top:0}
+@media (max-width:520px){.service-controls{padding-left:9px}.format-btn{padding:6px 7px}}
+
+
+/* Internal-use seat label */
+.seat-controls-wrapper{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.seat-label{color:#8c7c67;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;white-space:nowrap}
+@media (max-width:520px){.seat-controls-wrapper{align-items:flex-start;flex-direction:column;gap:5px}}
